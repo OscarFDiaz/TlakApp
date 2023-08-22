@@ -1,12 +1,11 @@
-import { Login } from './layouts/Login';
+import { BrowserRouter } from 'react-router-dom';
+import { AppRouter } from './router/AppRouter';
 
 function App() {
   return (
-    <main className="dark text-foreground bg-background w-screen h-screen">
-      <section className="xl:container mx-auto pt-8 ">
-        <Login />
-      </section>
-    </main>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,3215 @@
+[
+  {
+    "word": "accept",
+    "types": "verb",
+    "tags": ["respond", "react"],
+    "translation": "aceptar",
+    "examples": ["I cannot accept your invitation"],
+    "transExamples": ["No puedo aceptar tu invitacion"]
+  },
+  {
+    "word": "account",
+    "types": "noun",
+    "tags": ["financial statement", "statement"],
+    "translation": "cuenta",
+    "examples": ["send me an account of what I owe"],
+    "transExamples": ["envíame una cuenta de lo que debo"]
+  },
+  {
+    "word": "act",
+    "types": "verb",
+    "tags": ["do", "behave"],
+    "translation": "Actuar",
+    "examples": ["He acted the idiot"],
+    "transExamples": ["Actuó el idiota"]
+  },
+  {
+    "word": "action",
+    "types": "noun",
+    "tags": ["group action"],
+    "translation": "acción",
+    "examples": ["he saw action in Korea"],
+    "transExamples": ["vio acción en Corea"]
+  },
+  {
+    "word": "activity",
+    "types": "noun",
+    "tags": ["organic process", "biological process"],
+    "translation": "actividad",
+    "examples": ["respiratory activity"],
+    "transExamples": ["actividad respiratoria"]
+  },
+  {
+    "word": "administration",
+    "types": "noun",
+    "tags": ["body"],
+    "translation": "administración",
+    "examples": ["he claims that the present administration is corrupt"],
+    "transExamples": ["él afirma que la administración actual es corrupta"]
+  },
+  {
+    "word": "admit",
+    "types": "verb",
+    "tags": ["permit", "allow", "countenance", "let"],
+    "translation": "admitir",
+    "examples": [
+      "admit someone to the profession",
+      "She was admitted to the New Jersey Bar"
+    ],
+    "transExamples": [
+      "admitir a alguien en la profesión",
+      "Fue admitida en el Colegio de Abogados de Nueva Jersey."
+    ]
+  },
+  {
+    "word": "affect",
+    "types": "verb",
+    "tags": ["alter", "change", "modify"],
+    "translation": "afectar",
+    "examples": ["Will the new rules affect me?"],
+    "transExamples": ["¿Me afectarán las nuevas reglas?"]
+  },
+  {
+    "word": "age",
+    "types": "noun",
+    "tags": ["time of life"],
+    "translation": "años",
+    "examples": ["she was now of school age"],
+    "transExamples": ["ella ahora estaba en edad escolar"]
+  },
+  {
+    "word": "agreement",
+    "types": "noun",
+    "tags": ["statement"],
+    "translation": "acuerdo",
+    "examples": [
+      "they had an agreement that they would not interfere in each other's business"
+    ],
+    "transExamples": [
+      "tenían un acuerdo de que no interferirían en los negocios del otro"
+    ]
+  },
+  {
+    "word": "analysis",
+    "types": "noun",
+    "tags": ["psychotherapy"],
+    "translation": "análisis",
+    "examples": ["his physician recommended psychoanalysis"],
+    "transExamples": ["su médico le recomendó el psicoanálisis"]
+  },
+  {
+    "word": "answer",
+    "types": "verb",
+    "tags": ["state", "tell", "say"],
+    "translation": "responder",
+    "examples": [
+      "She didn't want to answer",
+      "answer the question",
+      "We answered that we would accept the invitation"
+    ],
+    "transExamples": [
+      "Ella no quiso responder",
+      "responde la pregunta",
+      "Respondimos que aceptaríamos la invitación."
+    ]
+  },
+  {
+    "word": "appear",
+    "types": "verb",
+    "tags": ["be"],
+    "translation": "Aparecer",
+    "examples": [
+      "This appears to be a very difficult problem",
+      "They appeared like people who had not eaten or slept for a long time"
+    ],
+    "transExamples": [
+      "Esto parece ser un problema muy difícil.",
+      "Parecían personas que no habían comido ni dormido durante mucho tiempo."
+    ]
+  },
+  {
+    "word": "apply",
+    "types": "verb",
+    "tags": [
+      "refer",
+      "bear on",
+      "come to",
+      "concern",
+      "have to do with",
+      "pertain",
+      "relate",
+      "touch",
+      "touch on"
+    ],
+    "translation": "aplicar",
+    "examples": ["The same laws apply to you!"],
+    "transExamples": ["Las mismas leyes se aplican a usted!"]
+  },
+  {
+    "word": "approach",
+    "types": "noun",
+    "tags": ["move", "motion", "movement"],
+    "translation": "Acercarse",
+    "examples": ["the hunter's approach scattered the geese"],
+    "transExamples": ["el enfoque del cazador dispersó a los gansos"]
+  },
+  {
+    "word": "arrive",
+    "types": "verb",
+    "tags": [
+      "bring home the bacon",
+      "succeed",
+      "win",
+      "come through",
+      "deliver the goods"
+    ],
+    "translation": "llegar",
+    "examples": ["After he published his book, he had arrived"],
+    "transExamples": ["Después de que publicó su libro, había llegado"]
+  },
+  {
+    "word": "art",
+    "types": "noun",
+    "tags": ["creation"],
+    "translation": "Arte",
+    "examples": ["an art exhibition", "a collection of fine art"],
+    "transExamples": ["una exposición de arte", "una colección de bellas artes"]
+  },
+  {
+    "word": "ask",
+    "types": "verb",
+    "tags": ["demand"],
+    "translation": "pedir",
+    "examples": ["Aren't we asking too much of these children?"],
+    "transExamples": ["¿No les pedimos demasiado a estos niños?"]
+  },
+  {
+    "word": "assume",
+    "types": "verb",
+    "tags": ["act", "pretend", "dissemble"],
+    "translation": "asumir",
+    "examples": ["She assumed indifference, even though she was seething with anger"],
+    "transExamples": ["Asumió indiferencia, a pesar de que estaba furiosa."]
+  },
+  {
+    "word": "attack",
+    "types": "noun",
+    "tags": ["conceptualisation", "conceptualization", "formulation"],
+    "translation": "ataque",
+    "examples": ["an attack on inflation", "his plan of attack was misguided"],
+    "transExamples": ["un ataque a la inflación", "su plan de ataque fue equivocado"]
+  },
+  {
+    "word": "audience",
+    "types": "noun",
+    "tags": ["chance", "opportunity"],
+    "translation": "audiencia",
+    "examples": ["he saw that he had lost his audience"],
+    "transExamples": ["vio que había perdido a su audiencia"]
+  },
+  {
+    "word": "authority",
+    "types": "noun",
+    "tags": ["permission"],
+    "translation": "autoridad",
+    "examples": ["authority for the program was renewed several times"],
+    "transExamples": ["la autoridad para el programa fue renovada varias veces"]
+  },
+  {
+    "word": "avoid",
+    "types": "verb",
+    "tags": ["foreclose", "forbid", "prevent", "preclude", "forestall"],
+    "translation": "evitar",
+    "examples": ["Let's avoid a confrontation"],
+    "transExamples": ["Evitemos una confrontación"]
+  },
+  {
+    "word": "baby",
+    "types": "noun",
+    "tags": ["child", "kid"],
+    "translation": "bebé",
+    "examples": [
+      "the baby began to cry again",
+      "she held the baby in her arms",
+      "it sounds simple, but when you have your own baby it is all so different"
+    ],
+    "transExamples": [
+      "el bebé comenzó a llorar otra vez",
+      "ella sostuvo al bebé en sus brazos",
+      "suena simple, pero cuando tienes tu propio bebé, todo es muy diferente"
+    ]
+  },
+  {
+    "word": "back",
+    "types": "noun",
+    "tags": ["support"],
+    "translation": "espalda",
+    "examples": ["the back of the dental chair was adjustable"],
+    "transExamples": ["el respaldo de la silla dental era ajustable"]
+  },
+  {
+    "word": "bag",
+    "types": "noun",
+    "tags": ["activity"],
+    "translation": "bolso",
+    "examples": ["his bag now is learning to play golf"],
+    "transExamples": ["su bolso ahora está aprendiendo a jugar golf"]
+  },
+  {
+    "word": "bank",
+    "types": "noun",
+    "tags": ["financial institution", "financial organization", "financial organisation"],
+    "translation": "banco",
+    "examples": [
+      "he cashed a check at the bank",
+      "that bank holds the mortgage on my home"
+    ],
+    "transExamples": [
+      "cobró un cheque en el banco",
+      "ese banco tiene la hipoteca de mi casa"
+    ]
+  },
+  {
+    "word": "beat",
+    "types": "noun",
+    "tags": ["route", "itinerary", "path"],
+    "translation": "golpear",
+    "examples": [
+      "in the old days a policeman walked a beat and knew all his people by name"
+    ],
+    "transExamples": [
+      "en los viejos tiempos un policía caminaba un latido y conocía a toda su gente por su nombre"
+    ]
+  },
+  {
+    "word": "bed",
+    "types": "noun",
+    "tags": ["depression", "natural depression"],
+    "translation": "cama",
+    "examples": ["he searched for treasure on the ocean bed"],
+    "transExamples": ["buscó un tesoro en el lecho marino"]
+  },
+  {
+    "word": "believe",
+    "types": "verb",
+    "tags": ["judge", "evaluate", "pass judgment"],
+    "translation": "creer",
+    "examples": ["I believe her to be very smart"],
+    "transExamples": ["Creo que ella es muy inteligente"]
+  },
+  {
+    "word": "bill",
+    "types": "noun",
+    "tags": ["legal instrument", "legal document", "official document", "instrument"],
+    "translation": "cuenta",
+    "examples": ["they held a public hearing on the bill"],
+    "transExamples": ["celebraron una audiencia pública sobre el proyecto de ley"]
+  },
+  {
+    "word": "bit",
+    "types": "noun",
+    "tags": ["time"],
+    "translation": "poco",
+    "examples": ["in just a bit"],
+    "transExamples": ["en un poco"]
+  },
+  {
+    "word": "black",
+    "types": "verb",
+    "tags": ["discolour", "color", "colour", "discolor"],
+    "translation": "negro",
+    "examples": ["The smoke blackened the ceiling", "The ceiling blackened"],
+    "transExamples": ["El humo ennegreció el techo", "El techo ennegrecido"]
+  },
+  {
+    "word": "body",
+    "types": "noun",
+    "tags": ["property"],
+    "translation": "cuerpo",
+    "examples": ["wool has more body than rayon"],
+    "transExamples": ["la lana tiene más cuerpo que el rayón"]
+  },
+  {
+    "word": "book",
+    "types": "noun",
+    "tags": ["product", "production"],
+    "translation": "libro",
+    "examples": ["he used a large book as a doorstop"],
+    "transExamples": ["usó un libro grande como tope de puerta"]
+  },
+  {
+    "word": "box",
+    "types": "noun",
+    "tags": ["compartment"],
+    "translation": "caja",
+    "examples": ["the royal box was empty"],
+    "transExamples": ["la caja real estaba vacía"]
+  },
+  {
+    "word": "boy",
+    "types": "noun",
+    "tags": ["male offspring", "man-child"],
+    "translation": "chico",
+    "examples": ["his boy is taller than he is"],
+    "transExamples": ["su chico es más alto que él"]
+  },
+  {
+    "word": "break",
+    "types": "noun",
+    "tags": ["score"],
+    "translation": "descanso",
+    "examples": ["he was up two breaks in the second set"],
+    "transExamples": ["estuvo arriba dos descansos en el segundo set"]
+  },
+  {
+    "word": "bring",
+    "types": "verb",
+    "tags": ["modify", "change", "alter"],
+    "translation": "traer",
+    "examples": ["She brings a special atmosphere to our meetings"],
+    "transExamples": ["Ella trae un ambiente especial a nuestras reuniones."]
+  },
+  {
+    "word": "budget",
+    "types": "noun",
+    "tags": ["plan", "programme", "program"],
+    "translation": "presupuesto",
+    "examples": ["the president submitted the annual budget to Congress"],
+    "transExamples": ["el presidente presentó el presupuesto anual al Congreso"]
+  },
+  {
+    "word": "building",
+    "types": "noun",
+    "tags": ["commercial enterprise", "business enterprise", "business"],
+    "translation": "edificio",
+    "examples": ["workers in the building trades"],
+    "transExamples": ["trabajadores en los oficios de la construcción"]
+  },
+  {
+    "word": "business",
+    "types": "noun",
+    "tags": ["enterprise"],
+    "translation": "negocio",
+    "examples": [
+      "he bought his brother's business",
+      "a small mom-and-pop business",
+      "a racially integrated business concern"
+    ],
+    "transExamples": [
+      "compró el negocio de su hermano",
+      "un pequeño negocio familiar",
+      "una preocupación comercial racialmente integrada"
+    ]
+  },
+  {
+    "word": "car",
+    "types": "noun",
+    "tags": ["automotive vehicle", "motor vehicle"],
+    "translation": "coche",
+    "examples": ["he needs a car to get to work"],
+    "transExamples": ["necesita un auto para ir a trabajar"]
+  },
+  {
+    "word": "care",
+    "types": "verb",
+    "tags": ["want", "desire"],
+    "translation": "que",
+    "examples": ["Do you care to try this dish?"],
+    "transExamples": ["¿Te gustaría probar este plato?"]
+  },
+  {
+    "word": "career",
+    "types": "noun",
+    "tags": [
+      "progress",
+      "advancement",
+      "forward motion",
+      "onward motion",
+      "procession",
+      "advance",
+      "progression"
+    ],
+    "translation": "carrera",
+    "examples": [
+      "the general had had a distinguished career",
+      "he had a long career in the law"
+    ],
+    "transExamples": [
+      "el general había tenido una carrera distinguida",
+      "tuvo una larga carrera en la ley"
+    ]
+  },
+  {
+    "word": "carry",
+    "types": "verb",
+    "tags": ["take", "convey", "bring"],
+    "translation": "llevar",
+    "examples": ["The airwaves carry the sound"],
+    "transExamples": ["Las ondas transmiten el sonido."]
+  },
+  {
+    "word": "center",
+    "types": "noun",
+    "tags": ["edifice", "building"],
+    "translation": "centrar",
+    "examples": ["they were raising money to build a new center for research"],
+    "transExamples": [
+      "estaban recaudando dinero para construir un nuevo centro de investigación"
+    ]
+  },
+  {
+    "word": "chair",
+    "types": "verb",
+    "tags": ["lead", "head"],
+    "translation": "silla",
+    "examples": ["She chaired the department for many years"],
+    "transExamples": ["Presidió el departamento por muchos años."]
+  },
+  {
+    "word": "challenge",
+    "types": "verb",
+    "tags": ["repugn", "contest", "contend"],
+    "translation": "desafío",
+    "examples": ["She challenged his claims"],
+    "transExamples": ["Ella desafió sus afirmaciones"]
+  },
+  {
+    "word": "chance",
+    "types": "noun",
+    "tags": ["possibleness", "possibility"],
+    "translation": "oportunidad",
+    "examples": ["now is your chance"],
+    "transExamples": ["ahora es tu oportunidad"]
+  },
+  {
+    "word": "character",
+    "types": "noun",
+    "tags": ["testimonial", "recommendation", "good word"],
+    "translation": "personaje",
+    "examples": [
+      "requests for character references are all too often answered evasively"
+    ],
+    "transExamples": [
+      "las solicitudes de referencias de personajes con demasiada frecuencia se responden evasivamente"
+    ]
+  },
+  {
+    "word": "charge",
+    "types": "noun",
+    "tags": ["pleading"],
+    "translation": "cargar",
+    "examples": ["he was arrested on a charge of larceny"],
+    "transExamples": ["fue arrestado por un cargo de hurto"]
+  },
+  {
+    "word": "check",
+    "types": "noun",
+    "tags": ["appraisal", "assessment"],
+    "translation": "cheque",
+    "examples": ["a check on its dependability under stress"],
+    "transExamples": ["un control de su fiabilidad bajo estrés"]
+  },
+  {
+    "word": "child",
+    "types": "noun",
+    "tags": ["offspring", "progeny", "issue"],
+    "translation": "niño",
+    "examples": ["they had three children"],
+    "transExamples": ["tuvieron tres hijos"]
+  },
+  {
+    "word": "church",
+    "types": "noun",
+    "tags": ["service", "religious service", "divine service"],
+    "translation": "Iglesia",
+    "examples": ["don't be late for church"],
+    "transExamples": ["no llegues tarde a la iglesia"]
+  },
+  {
+    "word": "city",
+    "types": "noun",
+    "tags": ["municipality"],
+    "translation": "ciudad",
+    "examples": ["the city voted for Republicans in 1994"],
+    "transExamples": ["la ciudad votó por los republicanos en 1994"]
+  },
+  {
+    "word": "class",
+    "types": "noun",
+    "tags": ["gathering", "assemblage"],
+    "translation": "clase",
+    "examples": ["the class of '97"],
+    "transExamples": ["la clase del &#39;97"]
+  },
+  {
+    "word": "coach",
+    "types": "verb",
+    "tags": ["instruct", "learn", "teach"],
+    "translation": "entrenador",
+    "examples": ["She is coaching the crew"],
+    "transExamples": ["Ella está entrenando a la tripulación"]
+  },
+  {
+    "word": "cold",
+    "types": "noun",
+    "tags": ["vasoconstrictor", "vasoconstrictive", "temperature", "pressor"],
+    "translation": "frío",
+    "examples": [
+      "the coldness made our breath visible",
+      "come in out of the cold",
+      "cold is a vasoconstrictor"
+    ],
+    "transExamples": [
+      "la frialdad hizo visible nuestro aliento",
+      "entra del frío",
+      "el frío es un vasoconstrictor"
+    ]
+  },
+  {
+    "word": "color",
+    "types": "noun",
+    "tags": ["material", "stuff"],
+    "translation": "color",
+    "examples": ["she used a different color for the trim"],
+    "transExamples": ["ella usó un color diferente para el recorte"]
+  },
+  {
+    "word": "company",
+    "types": "noun",
+    "tags": ["visitor", "visitant"],
+    "translation": "empresa",
+    "examples": ["the room was a mess because he hadn't expected company"],
+    "transExamples": [
+      "la habitación estaba hecha un desastre porque no esperaba compañía"
+    ]
+  },
+  {
+    "word": "compare",
+    "types": "noun",
+    "tags": ["alikeness", "similitude", "likeness"],
+    "translation": "comparar",
+    "examples": ["beyond compare"],
+    "transExamples": ["incomparablemente"]
+  },
+  {
+    "word": "congress",
+    "types": "noun",
+    "tags": ["assemblage", "gathering", "assembly"],
+    "translation": "congreso",
+    "examples": ["the lovers met discreetly for the purposes of sexual congress"],
+    "transExamples": [
+      "los amantes se reunieron discretamente con fines de congreso sexual"
+    ]
+  },
+  {
+    "word": "continue",
+    "types": "verb",
+    "tags": ["move", "act"],
+    "translation": "Seguir",
+    "examples": ["We continued to work into the night"],
+    "transExamples": ["Seguimos trabajando hasta la noche."]
+  },
+  {
+    "word": "control",
+    "types": "verb",
+    "tags": ["manipulate"],
+    "translation": "controlar",
+    "examples": ["control the lever"],
+    "transExamples": ["controlar la palanca"]
+  },
+  {
+    "word": "cost",
+    "types": "verb",
+    "tags": ["be"],
+    "translation": "costo",
+    "examples": ["These shoes cost $100"],
+    "transExamples": ["Estos zapatos cuestan $ 100"]
+  },
+  {
+    "word": "couple",
+    "types": "verb",
+    "tags": ["attach"],
+    "translation": "Pareja",
+    "examples": ["can we couple these proposals?"],
+    "transExamples": ["podemos unir estas propuestas?"]
+  },
+  {
+    "word": "course",
+    "types": "noun",
+    "tags": ["way", "direction"],
+    "translation": "curso",
+    "examples": ["the river takes a southern course"],
+    "transExamples": ["el río toma un curso sur"]
+  },
+  {
+    "word": "cover",
+    "types": "noun",
+    "tags": ["recording"],
+    "translation": "cubrir",
+    "examples": ["they made a cover of a Beatles' song"],
+    "transExamples": ["hicieron una versión de una canción de los Beatles"]
+  },
+  {
+    "word": "create",
+    "types": "verb",
+    "tags": ["make"],
+    "translation": "crear",
+    "examples": [
+      "create a poem",
+      "Schoenberg created twelve-tone music",
+      "Picasso created Cubism"
+    ],
+    "transExamples": [
+      "crear un poema",
+      "Schoenberg creó música de doce tonos",
+      "Picasso creó el cubismo"
+    ]
+  },
+  {
+    "word": "crime",
+    "types": "noun",
+    "tags": ["offence", "offense"],
+    "translation": "crimen",
+    "examples": ["a long record of crimes"],
+    "transExamples": ["un largo historial de crímenes"]
+  },
+  {
+    "word": "current",
+    "types": "noun",
+    "tags": ["flow", "flowing"],
+    "translation": "Actual",
+    "examples": ["the raft floated downstream on the current"],
+    "transExamples": ["la balsa flotaba río abajo en la corriente"]
+  },
+  {
+    "word": "data",
+    "types": "noun",
+    "tags": ["assemblage", "accumulation", "aggregation", "collection"],
+    "translation": "datos",
+    "examples": ["statistical data"],
+    "transExamples": ["Datos estadísticos"]
+  },
+  {
+    "word": "daughter",
+    "types": "noun",
+    "tags": ["female offspring"],
+    "translation": "hija",
+    "examples": ["her daughter cared for her in her old age"],
+    "transExamples": ["su hija la cuidó en su vejez"]
+  },
+  {
+    "word": "day",
+    "types": "noun",
+    "tags": ["time period", "period", "period of time"],
+    "translation": "día",
+    "examples": [
+      "the dawn turned night into day",
+      "it is easier to make the repairs in the daytime"
+    ],
+    "transExamples": [
+      "el amanecer convirtió la noche en día",
+      "es más fácil hacer reparaciones durante el día"
+    ]
+  },
+  {
+    "word": "deal",
+    "types": "noun",
+    "tags": ["understanding", "agreement"],
+    "translation": "acuerdo",
+    "examples": ["he rose to prominence through a series of shady deals"],
+    "transExamples": ["saltó a la fama a través de una serie de negocios turbios"]
+  },
+  {
+    "word": "death",
+    "types": "noun",
+    "tags": ["end", "ending"],
+    "translation": "muerte",
+    "examples": ["she stayed until his death"],
+    "transExamples": ["ella se quedó hasta su muerte"]
+  },
+  {
+    "word": "decide",
+    "types": "verb",
+    "tags": ["end", "terminate"],
+    "translation": "decidir",
+    "examples": [
+      "The case was decided",
+      "The judge decided the case in favor of the plaintiff"
+    ],
+    "transExamples": [
+      "El caso fue decidido",
+      "El juez decidió el caso a favor del demandante."
+    ]
+  },
+  {
+    "word": "decision",
+    "types": "noun",
+    "tags": ["selection", "choice", "pick", "option"],
+    "translation": "decisión",
+    "examples": ["the burden of decision was his"],
+    "transExamples": ["la carga de la decisión era su"]
+  },
+  {
+    "word": "defense",
+    "types": "noun",
+    "tags": ["answer"],
+    "translation": "defensa",
+    "examples": ["in defense he said the other man started it"],
+    "transExamples": ["en defensa dijo que el otro hombre comenzó"]
+  },
+  {
+    "word": "degree",
+    "types": "noun",
+    "tags": ["state"],
+    "translation": "la licenciatura",
+    "examples": ["a remarkable degree of frankness"],
+    "transExamples": ["un notable grado de franqueza"]
+  },
+  {
+    "word": "despite",
+    "types": "noun",
+    "tags": ["dislike"],
+    "translation": "A pesar de",
+    "examples": ["the despite in which outsiders were held is legendary"],
+    "transExamples": [
+      "el pesar en el que se llevaron a cabo los forasteros es legendario"
+    ]
+  },
+  {
+    "word": "detail",
+    "types": "noun",
+    "tags": ["component", "constituent", "component part", "part", "portion"],
+    "translation": "detalle",
+    "examples": ["it was perfect in all details"],
+    "transExamples": ["fue perfecto en todos los detalles"]
+  },
+  {
+    "word": "develop",
+    "types": "verb",
+    "tags": ["instruct", "learn", "teach"],
+    "translation": "desarrollar",
+    "examples": ["we develop the leaders for the future"],
+    "transExamples": ["desarrollamos los líderes para el futuro"]
+  },
+  {
+    "word": "development",
+    "types": "noun",
+    "tags": ["processing"],
+    "translation": "desarrollo",
+    "examples": ["the development and printing of his pictures took only two hours"],
+    "transExamples": ["el desarrollo y la impresión de sus fotos solo tomaron dos horas"]
+  },
+  {
+    "word": "device",
+    "types": "noun",
+    "tags": ["manoeuvre", "maneuver", "tactical maneuver", "tactical manoeuvre"],
+    "translation": "dispositivo",
+    "examples": ["he would stoop to any device to win a point"],
+    "transExamples": ["se inclinaría a cualquier dispositivo para ganar un punto"]
+  },
+  {
+    "word": "dinner",
+    "types": "noun",
+    "tags": ["party"],
+    "translation": "cena",
+    "examples": ["guests should never be late to a dinner party"],
+    "transExamples": ["los invitados nunca deben llegar tarde a una cena"]
+  },
+  {
+    "word": "direction",
+    "types": "noun",
+    "tags": ["control"],
+    "translation": "dirección",
+    "examples": ["a new council was installed under the direction of the king"],
+    "transExamples": ["se instaló un nuevo consejo bajo la dirección del rey"]
+  },
+  {
+    "word": "discuss",
+    "types": "verb",
+    "tags": ["talk of", "talk about"],
+    "translation": "discutir",
+    "examples": ["We discussed our household budget"],
+    "transExamples": ["Discutimos nuestro presupuesto familiar"]
+  },
+  {
+    "word": "discussion",
+    "types": "noun",
+    "tags": [
+      "voice communication",
+      "language",
+      "oral communication",
+      "speech",
+      "speech communication",
+      "spoken communication",
+      "spoken language"
+    ],
+    "translation": "discusión",
+    "examples": ["we had a good discussion"],
+    "transExamples": ["tuvimos una buena discusión"]
+  },
+  {
+    "word": "doctor",
+    "types": "noun",
+    "tags": ["medical man", "medical practitioner"],
+    "translation": "doctor",
+    "examples": ["I felt so bad I went to see my doctor"],
+    "transExamples": ["Me sentí tan mal que fui a ver a mi médico."]
+  },
+  {
+    "word": "door",
+    "types": "noun",
+    "tags": ["entrance", "entryway", "entry", "entree", "entranceway"],
+    "translation": "a través de",
+    "examples": ["he stuck his head in the doorway"],
+    "transExamples": ["asomó la cabeza por la puerta"]
+  },
+  {
+    "word": "drive",
+    "types": "noun",
+    "tags": ["golf shot", "golf stroke", "swing"],
+    "translation": "conducir",
+    "examples": ["he sliced his drive out of bounds"],
+    "transExamples": ["él cortó su disco fuera de los límites"]
+  },
+  {
+    "word": "drop",
+    "types": "noun",
+    "tags": ["sphere"],
+    "translation": "soltar",
+    "examples": ["he studied the shapes of low-viscosity drops"],
+    "transExamples": ["estudió las formas de las gotas de baja viscosidad"]
+  },
+  {
+    "word": "eat",
+    "types": "verb",
+    "tags": ["have", "take", "ingest", "take in", "consume"],
+    "translation": "comer",
+    "examples": ["This dog doesn't eat certain kinds of meat", "What do whales eat?"],
+    "transExamples": [
+      "Este perro no come ciertos tipos de carne.",
+      "¿Qué comen las ballenas?"
+    ]
+  },
+  {
+    "word": "economy",
+    "types": "noun",
+    "tags": ["action"],
+    "translation": "economía",
+    "examples": ["it was a small economy to walk to work every day"],
+    "transExamples": ["era una economía pequeña caminar al trabajo todos los días"]
+  },
+  {
+    "word": "edge",
+    "types": "noun",
+    "tags": ["urgency"],
+    "translation": "borde",
+    "examples": ["his voice had an edge to it"],
+    "transExamples": ["su voz tenía un filo"]
+  },
+  {
+    "word": "effect",
+    "types": "noun",
+    "tags": ["phenomenon"],
+    "translation": "efecto",
+    "examples": ["the magnetic effect was greater when the rod was lengthwise"],
+    "transExamples": ["el efecto magnético fue mayor cuando la varilla era longitudinal"]
+  },
+  {
+    "word": "effort",
+    "types": "noun",
+    "tags": ["activity"],
+    "translation": "esfuerzo",
+    "examples": ["made an effort to cover all the reading material"],
+    "transExamples": ["hizo un esfuerzo para cubrir todo el material de lectura"]
+  },
+  {
+    "word": "election",
+    "types": "noun",
+    "tags": ["vote"],
+    "translation": "elección",
+    "examples": ["the results of the election will be announced tonight"],
+    "transExamples": ["los resultados de las elecciones serán anunciados esta noche"]
+  },
+  {
+    "word": "energy",
+    "types": "noun",
+    "tags": ["physical phenomenon"],
+    "translation": "energía",
+    "examples": ["energy can take a wide variety of forms"],
+    "transExamples": ["la energía puede tomar una gran variedad de formas"]
+  },
+  {
+    "word": "enough",
+    "types": "noun",
+    "tags": ["relative quantity"],
+    "translation": "suficiente",
+    "examples": ["enough is as good as a feast"],
+    "transExamples": ["suficiente es tan bueno como un festín"]
+  },
+  {
+    "word": "evening",
+    "types": "noun",
+    "tags": ["daylight", "daytime", "day"],
+    "translation": "noche",
+    "examples": ["he enjoyed the evening light across the lake"],
+    "transExamples": ["disfrutó de la luz del atardecer sobre el lago"]
+  },
+  {
+    "word": "event",
+    "types": "noun",
+    "tags": ["phenomenon"],
+    "translation": "evento",
+    "examples": ["he acted very wise after the event"],
+    "transExamples": ["actuó muy sabio después del evento"]
+  },
+  {
+    "word": "example",
+    "types": "noun",
+    "tags": ["representation", "internal representation", "mental representation"],
+    "translation": "ejemplo",
+    "examples": ["I profited from his example"],
+    "transExamples": ["Me aproveché de su ejemplo"]
+  },
+  {
+    "word": "expect",
+    "types": "verb",
+    "tags": ["evaluate", "pass judgment", "judge"],
+    "translation": "esperar",
+    "examples": ["The meteorologists are expecting rain for tomorrow"],
+    "transExamples": ["Los meteorólogos esperan lluvia para mañana"]
+  },
+  {
+    "word": "experience",
+    "types": "verb",
+    "tags": ["undergo"],
+    "translation": "experiencia",
+    "examples": ["experience vertigo"],
+    "transExamples": ["experimentar vértigo"]
+  },
+  {
+    "word": "explain",
+    "types": "verb",
+    "tags": ["justify", "vindicate"],
+    "translation": "explique",
+    "examples": ["Her recent divorce may explain her reluctance to date again"],
+    "transExamples": [
+      "Su reciente divorcio puede explicar su renuencia a salir nuevamente"
+    ]
+  },
+  {
+    "word": "fact",
+    "types": "noun",
+    "tags": ["concept", "conception", "construct"],
+    "translation": "hecho",
+    "examples": ["scientific hypotheses are not facts"],
+    "transExamples": ["las hipótesis científicas no son hechos"]
+  },
+  {
+    "word": "fail",
+    "types": "verb",
+    "tags": ["let down", "disappoint"],
+    "translation": "fallar",
+    "examples": [
+      "His sense of smell failed him this time",
+      "His strength finally failed him",
+      "His children failed him in the crisis"
+    ],
+    "transExamples": [
+      "Su sentido del olfato le falló esta vez",
+      "Su fuerza finalmente le falló",
+      "Sus hijos le fallaron en la crisis."
+    ]
+  },
+  {
+    "word": "fall",
+    "types": "verb",
+    "tags": ["locomote", "go", "move", "travel"],
+    "translation": "otoño",
+    "examples": ["The barometer is falling"],
+    "transExamples": ["El barómetro está cayendo"]
+  },
+  {
+    "word": "family",
+    "types": "noun",
+    "tags": ["social unit", "unit"],
+    "translation": "familia",
+    "examples": [
+      "he moved his family to Virginia",
+      "the family refused to accept his will"
+    ],
+    "transExamples": [
+      "se mudó con su familia a Virginia",
+      "la familia se negó a aceptar su voluntad"
+    ]
+  },
+  {
+    "word": "feel",
+    "types": "noun",
+    "tags": ["ambiance", "atmosphere", "ambience"],
+    "translation": "sensación",
+    "examples": ["the feel of the city excited him"],
+    "transExamples": ["la sensación de la ciudad lo excitaba"]
+  },
+  {
+    "word": "fill",
+    "types": "verb",
+    "tags": ["alter", "modify", "change"],
+    "translation": "llenar",
+    "examples": ["fill a container", "fill the child with pride"],
+    "transExamples": ["llenar un recipiente", "llenar al niño de orgullo"]
+  },
+  {
+    "word": "finish",
+    "types": "noun",
+    "tags": ["decorativeness"],
+    "translation": "terminar",
+    "examples": [
+      "the boat had a metallic finish",
+      "he applied a coat of a clear finish",
+      "when the finish is too thin it is difficult to apply evenly"
+    ],
+    "transExamples": [
+      "el bote tenía un acabado metálico",
+      "aplicó una capa de acabado transparente",
+      "cuando el acabado es demasiado delgado, es difícil de aplicar de manera uniforme"
+    ]
+  },
+  {
+    "word": "floor",
+    "types": "noun",
+    "tags": ["horizontal surface", "level"],
+    "translation": "suelo",
+    "examples": [
+      "they needed rugs to cover the bare floors",
+      "we spread our sleeping bags on the dry floor of the tent"
+    ],
+    "transExamples": [
+      "necesitaban alfombras para cubrir los pisos desnudos",
+      "extendimos nuestros sacos de dormir en el piso seco de la tienda"
+    ]
+  },
+  {
+    "word": "focus",
+    "types": "verb",
+    "tags": ["adapt", "adjust", "conform"],
+    "translation": "atención",
+    "examples": ["The light focused"],
+    "transExamples": ["La luz enfocada"]
+  },
+  {
+    "word": "food",
+    "types": "noun",
+    "tags": ["solid"],
+    "translation": "comida",
+    "examples": ["food and drink"],
+    "transExamples": ["comida y bebida"]
+  },
+  {
+    "word": "foot",
+    "types": "noun",
+    "tags": ["support"],
+    "translation": "pie",
+    "examples": ["he stood at the foot of the tower"],
+    "transExamples": ["se paró al pie de la torre"]
+  },
+  {
+    "word": "game",
+    "types": "noun",
+    "tags": ["job", "line", "occupation", "business", "line of work"],
+    "translation": "juego",
+    "examples": ["he's in the plumbing game"],
+    "transExamples": ["él está en el juego de plomería"]
+  },
+  {
+    "word": "girl",
+    "types": "noun",
+    "tags": ["lover", "woman", "adult female"],
+    "translation": "niña",
+    "examples": ["his girlfriend kicked him out"],
+    "transExamples": ["su novia lo echó"]
+  },
+  {
+    "word": "go",
+    "types": "verb",
+    "tags": [
+      "hap",
+      "take place",
+      "occur",
+      "go on",
+      "pass",
+      "come about",
+      "pass off",
+      "fall out",
+      "happen"
+    ],
+    "translation": "Vamos",
+    "examples": ["how did your interview go?"],
+    "transExamples": ["¿Cómo fue tu entrevista?"]
+  },
+  {
+    "word": "good",
+    "types": "noun",
+    "tags": ["quality"],
+    "translation": "bueno",
+    "examples": [
+      "weigh the good against the bad",
+      "among the highest goods of all are happiness and self-realization"
+    ],
+    "transExamples": [
+      "pesar lo bueno contra lo malo",
+      "Entre los bienes más importantes de todos están la felicidad y la autorrealización."
+    ]
+  },
+  {
+    "word": "government",
+    "types": "noun",
+    "tags": ["social control"],
+    "translation": "gobierno",
+    "examples": ["he had considerable experience of government"],
+    "transExamples": ["tenía una experiencia considerable de gobierno"]
+  },
+  {
+    "word": "green",
+    "types": "noun",
+    "tags": ["land site", "site"],
+    "translation": "verde",
+    "examples": ["the ball rolled across the green and into the bunker"],
+    "transExamples": ["la pelota rodó por el green y entró en el búnker"]
+  },
+  {
+    "word": "hair",
+    "types": "noun",
+    "tags": ["small indefinite quantity", "small indefinite amount"],
+    "translation": "cabello",
+    "examples": ["they escaped by a hair's-breadth"],
+    "transExamples": ["escaparon por un pelo"]
+  },
+  {
+    "word": "half",
+    "types": "noun",
+    "tags": ["simple fraction", "common fraction"],
+    "translation": "medio",
+    "examples": ["half a loaf", "half an hour", "a century and one half"],
+    "transExamples": ["media barra de pan", "media hora", "un siglo y medio"]
+  },
+  {
+    "word": "hand",
+    "types": "noun",
+    "tags": ["extremity"],
+    "translation": "mano",
+    "examples": ["he had the hands of a surgeon"],
+    "transExamples": ["tenía las manos de un cirujano"]
+  },
+  {
+    "word": "health",
+    "types": "noun",
+    "tags": ["eudaimonia", "upbeat", "well-being", "wellbeing", "welfare", "eudaemonia"],
+    "translation": "salud",
+    "examples": [
+      "physicians should be held responsible for the health of their patients"
+    ],
+    "transExamples": ["Los médicos deben ser responsables de la salud de sus pacientes."]
+  },
+  {
+    "word": "heart",
+    "types": "noun",
+    "tags": ["internal organ", "viscus"],
+    "translation": "corazón",
+    "examples": ["he stood still, his heart thumping wildly"],
+    "transExamples": ["se quedó quieto, su corazón latía violentamente"]
+  },
+  {
+    "word": "heat",
+    "types": "verb",
+    "tags": ["turn", "change state"],
+    "translation": "calor",
+    "examples": ["The room heated up quickly"],
+    "transExamples": ["El cuarto se calentó rápidamente"]
+  },
+  {
+    "word": "help",
+    "types": "noun",
+    "tags": ["worker"],
+    "translation": "ayuda",
+    "examples": ["they hired additional help to finish the work"],
+    "transExamples": ["contrataron ayuda adicional para terminar el trabajo"]
+  },
+  {
+    "word": "high",
+    "types": "noun",
+    "tags": ["topographic point", "place", "spot"],
+    "translation": "alto",
+    "examples": ["they stood on high and observed the countryside"],
+    "transExamples": ["se pararon en lo alto y observaron el campo"]
+  },
+  {
+    "word": "history",
+    "types": "noun",
+    "tags": ["record"],
+    "translation": "historia",
+    "examples": ["a history of France"],
+    "transExamples": ["una historia de francia"]
+  },
+  {
+    "word": "hit",
+    "types": "verb",
+    "tags": ["move", "displace"],
+    "translation": "golpear",
+    "examples": ["he hit his fist on the table"],
+    "transExamples": ["golpeó el puño sobre la mesa"]
+  },
+  {
+    "word": "hold",
+    "types": "verb",
+    "tags": ["be"],
+    "translation": "sostener",
+    "examples": ["The flask holds one gallon"],
+    "transExamples": ["El matraz contiene un galón."]
+  },
+  {
+    "word": "home",
+    "types": "noun",
+    "tags": ["bag", "base"],
+    "translation": "hogar",
+    "examples": ["he ruled that the runner failed to touch home"],
+    "transExamples": ["dictaminó que el corredor no pudo tocar su casa"]
+  },
+  {
+    "word": "hope",
+    "types": "verb",
+    "tags": ["plan", "be after"],
+    "translation": "esperanza",
+    "examples": ["I hope to have finished this work by tomorrow evening"],
+    "transExamples": ["Espero haber terminado este trabajo mañana por la tarde."]
+  },
+  {
+    "word": "hour",
+    "types": "noun",
+    "tags": ["time", "clock time"],
+    "translation": "hora",
+    "examples": ["the hour is getting late"],
+    "transExamples": ["la hora se hace tarde"]
+  },
+  {
+    "word": "house",
+    "types": "verb",
+    "tags": ["shelter"],
+    "translation": "casa",
+    "examples": ["The immigrants were housed in a new development outside the town"],
+    "transExamples": [
+      "Los inmigrantes fueron alojados en un nuevo desarrollo fuera de la ciudad."
+    ]
+  },
+  {
+    "word": "idea",
+    "types": "noun",
+    "tags": ["melodic phrase", "melody", "air", "tune", "strain", "line", "melodic line"],
+    "translation": "idea",
+    "examples": ["the accompanist picked up the idea and elaborated it"],
+    "transExamples": ["el acompañante recogió la idea y la elaboró"]
+  },
+  {
+    "word": "image",
+    "types": "noun",
+    "tags": ["representation", "internal representation", "mental representation"],
+    "translation": "imagen",
+    "examples": ["her imagination forced images upon her too awful to contemplate"],
+    "transExamples": [
+      "su imaginación la forzó a imágenes demasiado horribles para contemplar"
+    ]
+  },
+  {
+    "word": "improve",
+    "types": "verb",
+    "tags": ["turn", "change state"],
+    "translation": "mejorar",
+    "examples": ["The weather improved toward evening"],
+    "transExamples": ["El clima mejoró hacia la noche."]
+  },
+  {
+    "word": "increase",
+    "types": "noun",
+    "tags": ["amount"],
+    "translation": "incrementar",
+    "examples": ["they proposed an increase of 15 percent in the fare"],
+    "transExamples": ["propusieron un aumento del 15 por ciento en la tarifa"]
+  },
+  {
+    "word": "indicate",
+    "types": "verb",
+    "tags": ["tell"],
+    "translation": "indicar",
+    "examples": ["These symptoms indicate a serious illness"],
+    "transExamples": ["Estos síntomas indican una enfermedad grave."]
+  },
+  {
+    "word": "industry",
+    "types": "noun",
+    "tags": ["business enterprise", "business", "commercial enterprise"],
+    "translation": "industria",
+    "examples": [
+      "American industry is making increased use of computers to control production"
+    ],
+    "transExamples": [
+      "La industria estadounidense está haciendo un mayor uso de las computadoras para controlar la producción."
+    ]
+  },
+  {
+    "word": "involve",
+    "types": "verb",
+    "tags": ["feature", "have"],
+    "translation": "implicar",
+    "examples": ["This decision involves many changes"],
+    "transExamples": ["Esta decisión implica muchos cambios."]
+  },
+  {
+    "word": "job",
+    "types": "noun",
+    "tags": ["duty"],
+    "translation": "trabajo",
+    "examples": [
+      "estimates of the city's loss on that job ranged as high as a million dollars",
+      "the job of repairing the engine took several hours"
+    ],
+    "transExamples": [
+      "Las estimaciones de la pérdida de la ciudad en ese trabajo oscilaron hasta un millón de dólares",
+      "el trabajo de reparar el motor tomó varias horas"
+    ]
+  },
+  {
+    "word": "kid",
+    "types": "verb",
+    "tags": [
+      "tease",
+      "tantalize",
+      "cod",
+      "taunt",
+      "ride",
+      "twit",
+      "rag",
+      "rally",
+      "razz",
+      "bait",
+      "tantalise"
+    ],
+    "translation": "niño",
+    "examples": ["After we relaxed, we just kidded around"],
+    "transExamples": ["Después de relajarnos, solo bromeamos"]
+  },
+  {
+    "word": "kill",
+    "types": "verb",
+    "tags": ["take out", "take away"],
+    "translation": "matar",
+    "examples": ["kill these lines in the President's speech"],
+    "transExamples": ["matar estas líneas en el discurso del presidente"]
+  },
+  {
+    "word": "know",
+    "types": "verb",
+    "tags": ["accept"],
+    "translation": "saber",
+    "examples": ["The Crown Prince was acknowledged as the true heir to the throne"],
+    "transExamples": [
+      "El Príncipe Heredero fue reconocido como el verdadero heredero al trono."
+    ]
+  },
+  {
+    "word": "land",
+    "types": "noun",
+    "tags": ["physical object", "object"],
+    "translation": "tierra",
+    "examples": ["the land had never been plowed"],
+    "transExamples": ["la tierra nunca había sido arada"]
+  },
+  {
+    "word": "language",
+    "types": "noun",
+    "tags": ["communication"],
+    "translation": "idioma",
+    "examples": [
+      "he taught foreign languages",
+      "the language introduced is standard throughout the text",
+      "the speed with which a program can be executed depends on the language in which it is written"
+    ],
+    "transExamples": [
+      "el enseñó idiomas extranjeros",
+      "el lenguaje introducido es estándar en todo el texto",
+      "la velocidad con la que se puede ejecutar un programa depende del idioma en el que está escrito"
+    ]
+  },
+  {
+    "word": "last",
+    "types": "verb",
+    "tags": ["measure"],
+    "translation": "último",
+    "examples": ["The bad weather lasted for three days"],
+    "transExamples": ["El mal tiempo duró tres días."]
+  },
+  {
+    "word": "law",
+    "types": "noun",
+    "tags": ["learned profession"],
+    "translation": "ley",
+    "examples": ["he studied law at Yale"],
+    "transExamples": ["estudió derecho en Yale"]
+  },
+  {
+    "word": "leave",
+    "types": "verb",
+    "tags": ["forbear", "refrain"],
+    "translation": "salir",
+    "examples": [
+      "leave it as is",
+      "leave the young fawn alone",
+      "leave the flowers that you see in the park behind"
+    ],
+    "transExamples": [
+      "déjalo como está",
+      "deja en paz al joven cervatillo",
+      "deja atrás las flores que ves en el parque"
+    ]
+  },
+  {
+    "word": "left",
+    "types": "noun",
+    "tags": ["hand", "paw", "mitt", "manus"],
+    "translation": "izquierda",
+    "examples": ["jab with your left"],
+    "transExamples": ["golpe con la izquierda"]
+  },
+  {
+    "word": "letter",
+    "types": "noun",
+    "tags": ["grapheme", "character", "graph", "graphic symbol"],
+    "translation": "carta",
+    "examples": ["his grandmother taught him his letters"],
+    "transExamples": ["su abuela le enseñó sus cartas"]
+  },
+  {
+    "word": "lie",
+    "types": "verb",
+    "tags": ["change posture"],
+    "translation": "mentira",
+    "examples": ["lie down on the bed until you feel better"],
+    "transExamples": ["acuéstate en la cama hasta que te sientas mejor"]
+  },
+  {
+    "word": "life",
+    "types": "noun",
+    "tags": ["experience"],
+    "translation": "vida",
+    "examples": ["he could no longer cope with the complexities of life"],
+    "transExamples": ["ya no podía hacer frente a las complejidades de la vida"]
+  },
+  {
+    "word": "like",
+    "types": "verb",
+    "tags": ["desire", "want"],
+    "translation": "me gusta",
+    "examples": ["Would you like to come along to the movies?"],
+    "transExamples": ["¿Te gustaría venir al cine?"]
+  },
+  {
+    "word": "line",
+    "types": "noun",
+    "tags": ["reasoning", "abstract thought", "logical thinking"],
+    "translation": "línea",
+    "examples": ["I can't follow your line of reasoning"],
+    "transExamples": ["No puedo seguir tu línea de razonamiento"]
+  },
+  {
+    "word": "loss",
+    "types": "noun",
+    "tags": ["sum of money", "amount of money", "sum", "amount"],
+    "translation": "pérdida",
+    "examples": ["the company operated at a loss last year"],
+    "transExamples": ["la compañía operaba con pérdidas el año pasado"]
+  },
+  {
+    "word": "lot",
+    "types": "noun",
+    "tags": ["social group"],
+    "translation": "lote",
+    "examples": ["they were an angry lot"],
+    "transExamples": ["estaban muy enojados"]
+  },
+  {
+    "word": "love",
+    "types": "noun",
+    "tags": ["sex activity", "sex", "sexual practice", "sexual activity"],
+    "translation": "amor",
+    "examples": [
+      "his lovemaking disgusted her",
+      "he hadn't had any love in months",
+      "he has a very complicated love life"
+    ],
+    "transExamples": [
+      "su amor la asqueaba",
+      "no había tenido ningún amor en meses",
+      "el tiene una vida amorosa muy complicada"
+    ]
+  },
+  {
+    "word": "magazine",
+    "types": "noun",
+    "tags": ["publisher", "publishing company", "publishing firm", "publishing house"],
+    "translation": "revista",
+    "examples": ["he works for a magazine"],
+    "transExamples": ["el trabaja para una revista"]
+  },
+  {
+    "word": "maintain",
+    "types": "verb",
+    "tags": ["enter", "record", "put down"],
+    "translation": "mantener",
+    "examples": ["maintain a record"],
+    "transExamples": ["mantener un registro"]
+  },
+  {
+    "word": "make",
+    "types": "verb",
+    "tags": [
+      "tidy up",
+      "tidy",
+      "straighten out",
+      "neaten",
+      "clean up",
+      "square away",
+      "straighten"
+    ],
+    "translation": "hacer",
+    "examples": ["make the bed", "make up a room"],
+    "transExamples": ["hacer la cama", "hacer una habitación"]
+  },
+  {
+    "word": "management",
+    "types": "noun",
+    "tags": ["social control"],
+    "translation": "administración",
+    "examples": ["he was given overall management of the program"],
+    "transExamples": ["se le dio la gestión general del programa"]
+  },
+  {
+    "word": "marriage",
+    "types": "noun",
+    "tags": ["family", "family unit"],
+    "translation": "matrimonio",
+    "examples": ["his second marriage was happier than the first"],
+    "transExamples": ["su segundo matrimonio fue más feliz que el primero"]
+  },
+  {
+    "word": "material",
+    "types": "noun",
+    "tags": ["artifact", "artefact"],
+    "translation": "material",
+    "examples": ["she measured off enough material for a dress"],
+    "transExamples": ["ella midió suficiente material para un vestido"]
+  },
+  {
+    "word": "matter",
+    "types": "noun",
+    "tags": ["concern"],
+    "translation": "importar",
+    "examples": ["several matters to attend to"],
+    "transExamples": ["varios asuntos para atender"]
+  },
+  {
+    "word": "meeting",
+    "types": "noun",
+    "tags": ["assembly", "gathering", "assemblage"],
+    "translation": "reunión",
+    "examples": ["his meeting with the salesmen was the high point of his day"],
+    "transExamples": ["su reunión con los vendedores fue el punto culminante de su día"]
+  },
+  {
+    "word": "memory",
+    "types": "noun",
+    "tags": ["module", "mental faculty", "faculty"],
+    "translation": "memoria",
+    "examples": ["he had a good memory when he was younger"],
+    "transExamples": ["tenía buena memoria cuando era más joven"]
+  },
+  {
+    "word": "mention",
+    "types": "noun",
+    "tags": ["notation", "annotation", "note"],
+    "translation": "mencionar",
+    "examples": ["the article includes mention of similar clinical cases"],
+    "transExamples": ["El artículo incluye la mención de casos clínicos similares."]
+  },
+  {
+    "word": "military",
+    "types": "noun",
+    "tags": ["personnel", "force"],
+    "translation": "militar",
+    "examples": [
+      "their military is the largest in the region",
+      "the military machine is the same one we faced in 1991 but now it is weaker"
+    ],
+    "transExamples": [
+      "su ejército es el más grande de la región",
+      "la máquina militar es la misma que enfrentamos en 1991 pero ahora es más débil"
+    ]
+  },
+  {
+    "word": "minute",
+    "types": "noun",
+    "tags": ["time"],
+    "translation": "minuto",
+    "examples": ["it only takes a minute"],
+    "transExamples": ["solo toma un minuto"]
+  },
+  {
+    "word": "model",
+    "types": "noun",
+    "tags": ["supporter", "assistant", "help", "helper"],
+    "translation": "modelo",
+    "examples": [
+      "the president didn't have time to be a model so the artist worked from photos"
+    ],
+    "transExamples": [
+      "el presidente no tuvo tiempo de ser modelo, por lo que el artista trabajó a partir de fotos"
+    ]
+  },
+  {
+    "word": "moment",
+    "types": "noun",
+    "tags": ["significance"],
+    "translation": "momento",
+    "examples": ["virtue is of more moment than security"],
+    "transExamples": ["la virtud es más importante que la seguridad"]
+  },
+  {
+    "word": "money",
+    "types": "noun",
+    "tags": ["monetary system", "medium of exchange"],
+    "translation": "dinero",
+    "examples": ["we tried to collect the money he owed us"],
+    "transExamples": ["tratamos de cobrar el dinero que nos debía"]
+  },
+  {
+    "word": "month",
+    "types": "noun",
+    "tags": ["period of time", "time period", "period"],
+    "translation": "mes",
+    "examples": ["he paid the bill last month"],
+    "transExamples": ["pagó la cuenta el mes pasado"]
+  },
+  {
+    "word": "morning",
+    "types": "noun",
+    "tags": ["period", "period of time", "time period"],
+    "translation": "Mañana",
+    "examples": ["I spent the morning running errands"],
+    "transExamples": ["Pasé la mañana haciendo mandados"]
+  },
+  {
+    "word": "move",
+    "types": "verb",
+    "tags": ["cause", "make", "do"],
+    "translation": "moverse",
+    "examples": ["This moved me to sacrifice my career"],
+    "transExamples": ["Esto me movió a sacrificar mi carrera"]
+  },
+  {
+    "word": "movement",
+    "types": "noun",
+    "tags": ["change"],
+    "translation": "movimiento",
+    "examples": ["the movement of people from the farms to the cities"],
+    "transExamples": ["el movimiento de personas de las granjas a las ciudades"]
+  },
+  {
+    "word": "movie",
+    "types": "noun",
+    "tags": ["product", "production", "show"],
+    "translation": "película",
+    "examples": ["they went to a movie every Saturday night"],
+    "transExamples": ["iban al cine todos los sábados por la noche"]
+  },
+  {
+    "word": "music",
+    "types": "noun",
+    "tags": ["penalisation", "penalization", "punishment", "penalty"],
+    "translation": "música",
+    "examples": ["you have to face the music"],
+    "transExamples": ["tienes que enfrentar la música"]
+  },
+  {
+    "word": "name",
+    "types": "verb",
+    "tags": ["label"],
+    "translation": "nombre",
+    "examples": [
+      "They named their son David",
+      "The new school was named after the famous Civil Rights leader"
+    ],
+    "transExamples": [
+      "Llamaron a su hijo David",
+      "La nueva escuela lleva el nombre del famoso líder de Derechos Civiles"
+    ]
+  },
+  {
+    "word": "nation",
+    "types": "noun",
+    "tags": ["political unit", "political entity"],
+    "translation": "nación",
+    "examples": ["African nations", "students who had come to the nation's capitol"],
+    "transExamples": [
+      "Naciones africanas",
+      "estudiantes que habían venido al capitolio de la nación"
+    ]
+  },
+  {
+    "word": "nature",
+    "types": "noun",
+    "tags": ["causal agency", "causal agent", "cause"],
+    "translation": "naturaleza",
+    "examples": [
+      "the laws of nature",
+      "nature has seen to it that men are stronger than women"
+    ],
+    "transExamples": [
+      "las leyes de la naturaleza",
+      "la naturaleza se ha encargado de que los hombres sean más fuertes que las mujeres"
+    ]
+  },
+  {
+    "word": "news",
+    "types": "noun",
+    "tags": ["information", "info"],
+    "translation": "Noticias",
+    "examples": ["they awaited news of the outcome"],
+    "transExamples": ["esperaban noticias del resultado"]
+  },
+  {
+    "word": "newspaper",
+    "types": "noun",
+    "tags": ["production", "product"],
+    "translation": "periódico",
+    "examples": ["when it began to rain he covered his head with a newspaper"],
+    "transExamples": ["cuando empezó a llover se cubrió la cabeza con un periódico"]
+  },
+  {
+    "word": "note",
+    "types": "noun",
+    "tags": ["folding money", "paper money", "paper currency"],
+    "translation": "Nota",
+    "examples": ["he peeled off five one-thousand-zloty notes"],
+    "transExamples": ["se quitó cinco billetes de mil zloty"]
+  },
+  {
+    "word": "nothing",
+    "types": "noun",
+    "tags": ["relative quantity"],
+    "translation": "nada",
+    "examples": ["it looked like nothing I had ever seen before"],
+    "transExamples": ["no se parecía a nada que hubiera visto antes"]
+  },
+  {
+    "word": "officer",
+    "types": "noun",
+    "tags": ["man", "military personnel", "serviceman", "military man"],
+    "translation": "oficial",
+    "examples": ["an officer is responsible for the lives of his men"],
+    "transExamples": ["un oficial es responsable de la vida de sus hombres"]
+  },
+  {
+    "word": "operation",
+    "types": "noun",
+    "tags": ["activity"],
+    "translation": "operación",
+    "examples": ["it was a joint operation of the navy and air force"],
+    "transExamples": ["fue una operación conjunta de la marina y la fuerza aérea"]
+  },
+  {
+    "word": "opportunity",
+    "types": "noun",
+    "tags": ["possibility", "possibleness"],
+    "translation": "oportunidad",
+    "examples": ["the holiday gave us the opportunity to visit Washington"],
+    "transExamples": ["las vacaciones nos dieron la oportunidad de visitar Washington"]
+  },
+  {
+    "word": "owner",
+    "types": "noun",
+    "tags": ["person", "somebody", "someone", "soul", "mortal", "individual"],
+    "translation": "propietario",
+    "examples": [
+      "they are searching for the owner of the car",
+      "who is the owner of that friendly smile?"
+    ],
+    "transExamples": [
+      "están buscando al dueño del auto",
+      "¿Quién es el dueño de esa sonrisa amistosa?"
+    ]
+  },
+  {
+    "word": "pain",
+    "types": "verb",
+    "tags": ["upset", "discomfit", "discompose", "disconcert", "untune"],
+    "translation": "dolor",
+    "examples": ["It pains me to see my children not being taught well in school"],
+    "transExamples": ["Me duele ver que a mis hijos no se les enseña bien en la escuela"]
+  },
+  {
+    "word": "painting",
+    "types": "noun",
+    "tags": ["graphic art"],
+    "translation": "pintura",
+    "examples": [
+      "a small painting by Picasso",
+      "he bought the painting as an investment"
+    ],
+    "transExamples": [
+      "una pequeña pintura de Picasso",
+      "compró la pintura como inversión"
+    ]
+  },
+  {
+    "word": "paper",
+    "types": "noun",
+    "tags": ["product", "production"],
+    "translation": "papel",
+    "examples": ["when it began to rain he covered his head with a newspaper"],
+    "transExamples": ["cuando empezó a llover se cubrió la cabeza con un periódico"]
+  },
+  {
+    "word": "party",
+    "types": "noun",
+    "tags": ["organization", "organisation"],
+    "translation": "partido",
+    "examples": ["in 1992 Perot tried to organize a third party at the national level"],
+    "transExamples": ["en 1992 Perot intentó organizar un tercero a nivel nacional"]
+  },
+  {
+    "word": "pass",
+    "types": "verb",
+    "tags": ["move", "go", "locomote", "travel"],
+    "translation": "pasar",
+    "examples": [
+      "A black limousine passed by when she looked out the window",
+      "He passed his professor in the hall",
+      "One line of soldiers surpassed the other"
+    ],
+    "transExamples": [
+      "Una limusina negra pasó cuando miró por la ventana.",
+      "Pasó a su profesor en el pasillo",
+      "Una línea de soldados superó a la otra."
+    ]
+  },
+  {
+    "word": "pattern",
+    "types": "noun",
+    "tags": ["activity"],
+    "translation": "modelo",
+    "examples": ["they changed their dietary pattern"],
+    "transExamples": ["cambiaron su patrón dietético"]
+  },
+  {
+    "word": "people",
+    "types": "noun",
+    "tags": ["grouping", "group"],
+    "translation": "personas",
+    "examples": ["power to the people"],
+    "transExamples": ["poder para la gente"]
+  },
+  {
+    "word": "performance",
+    "types": "noun",
+    "tags": ["show"],
+    "translation": "actuación",
+    "examples": [
+      "they listened to ten different performances",
+      "the play ran for 100 performances",
+      "the frequent performances of the symphony testify to its popularity"
+    ],
+    "transExamples": [
+      "escucharon diez actuaciones diferentes",
+      "la obra duró 100 actuaciones",
+      "Las frecuentes actuaciones de la sinfonía dan testimonio de su popularidad."
+    ]
+  },
+  {
+    "word": "period",
+    "types": "noun",
+    "tags": ["fundamental measure", "fundamental quantity"],
+    "translation": "período",
+    "examples": [
+      "a time period of 30 years",
+      "hastened the period of time of his recovery",
+      "Picasso's blue period"
+    ],
+    "transExamples": [
+      "un período de tiempo de 30 años",
+      "acelerado el período de tiempo de su recuperación",
+      "Periodo azul de Picasso"
+    ]
+  },
+  {
+    "word": "person",
+    "types": "noun",
+    "tags": ["being", "causal agent", "cause", "organism", "causal agency"],
+    "translation": "persona",
+    "examples": ["there was too much for one person to do"],
+    "transExamples": ["había demasiado para que una persona hiciera"]
+  },
+  {
+    "word": "pick",
+    "types": "noun",
+    "tags": ["output", "production", "yield"],
+    "translation": "recoger",
+    "examples": [
+      "he sent the first picking of berries to the market",
+      "it was the biggest peach pick in years"
+    ],
+    "transExamples": [
+      "envió la primera cosecha de bayas al mercado",
+      "fue la selección de duraznos más grande en años"
+    ]
+  },
+  {
+    "word": "picture",
+    "types": "noun",
+    "tags": ["graphic art"],
+    "translation": "imagen",
+    "examples": ["his pictures hang in the Louvre"],
+    "transExamples": ["sus fotos cuelgan en el Louvre"]
+  },
+  {
+    "word": "piece",
+    "types": "verb",
+    "tags": [
+      "touch on",
+      "mend",
+      "doctor",
+      "fix",
+      "furbish up",
+      "repair",
+      "restore",
+      "bushel"
+    ],
+    "translation": "pieza",
+    "examples": ["She pieced the china cup"],
+    "transExamples": ["Ella reconstruyó la taza de porcelana"]
+  },
+  {
+    "word": "plan",
+    "types": "noun",
+    "tags": ["organisation", "system", "organization", "arrangement"],
+    "translation": "plan",
+    "examples": ["a plan for seating guests"],
+    "transExamples": ["un plan para acomodar a los invitados"]
+  },
+  {
+    "word": "player",
+    "types": "noun",
+    "tags": ["associate"],
+    "translation": "jugador",
+    "examples": ["he was a major player in setting up the corporation"],
+    "transExamples": ["fue un jugador importante en la creación de la corporación"]
+  },
+  {
+    "word": "point",
+    "types": "verb",
+    "tags": ["lie"],
+    "translation": "punto",
+    "examples": ["The weather vane points North", "the dancers toes pointed outward"],
+    "transExamples": [
+      "La veleta apunta al norte",
+      "los dedos de los bailarines apuntaban hacia afuera"
+    ]
+  },
+  {
+    "word": "policy",
+    "types": "noun",
+    "tags": ["contract"],
+    "translation": "política",
+    "examples": ["you should have read the small print on your policy"],
+    "transExamples": ["deberías haber leído la letra pequeña de tu póliza"]
+  },
+  {
+    "word": "politics",
+    "types": "noun",
+    "tags": ["social relation"],
+    "translation": "política",
+    "examples": ["office politics is often counterproductive"],
+    "transExamples": ["la política de la oficina es a menudo contraproducente"]
+  },
+  {
+    "word": "population",
+    "types": "noun",
+    "tags": ["collection", "accumulation", "aggregation", "assemblage"],
+    "translation": "población",
+    "examples": ["it is an estimate of the mean of the population"],
+    "transExamples": ["Es una estimación de la media de la población."]
+  },
+  {
+    "word": "position",
+    "types": "noun",
+    "tags": ["condition", "status"],
+    "translation": "posición",
+    "examples": [
+      "the unpleasant situation (or position) of having to choose between two evils"
+    ],
+    "transExamples": [
+      "La desagradable situación (o posición) de tener que elegir entre dos males"
+    ]
+  },
+  {
+    "word": "power",
+    "types": "noun",
+    "tags": ["free energy", "energy"],
+    "translation": "poder",
+    "examples": ["The power went oout around midnight"],
+    "transExamples": ["El poder se fue alrededor de la medianoche"]
+  },
+  {
+    "word": "practice",
+    "types": "noun",
+    "tags": ["effectuation", "implementation"],
+    "translation": "práctica",
+    "examples": ["a hard theory to put into practice"],
+    "transExamples": ["Una teoría difícil de poner en práctica"]
+  },
+  {
+    "word": "price",
+    "types": "noun",
+    "tags": ["value"],
+    "translation": "precio",
+    "examples": ["the price of success is hard work", "what price glory?"],
+    "transExamples": ["el precio del éxito es un trabajo duro", "¿Qué precio gloria?"]
+  },
+  {
+    "word": "problem",
+    "types": "noun",
+    "tags": ["difficulty"],
+    "translation": "problema",
+    "examples": ["what's the problem?"],
+    "transExamples": ["¿Cuál es el problema?"]
+  },
+  {
+    "word": "process",
+    "types": "noun",
+    "tags": ["body part"],
+    "translation": "proceso",
+    "examples": ["a bony process"],
+    "transExamples": ["un proceso óseo"]
+  },
+  {
+    "word": "production",
+    "types": "noun",
+    "tags": ["creation"],
+    "translation": "producción",
+    "examples": ["they export most of their agricultural production"],
+    "transExamples": ["exportan la mayor parte de su producción agrícola"]
+  },
+  {
+    "word": "program",
+    "types": "noun",
+    "tags": ["info", "information"],
+    "translation": "programa",
+    "examples": ["he was admitted to a new program at the university"],
+    "transExamples": ["fue admitido en un nuevo programa en la universidad"]
+  },
+  {
+    "word": "property",
+    "types": "noun",
+    "tags": ["concept", "conception", "construct"],
+    "translation": "propiedad",
+    "examples": ["self-confidence is not an endearing property"],
+    "transExamples": ["la autoconfianza no es una propiedad entrañable"]
+  },
+  {
+    "word": "protect",
+    "types": "verb",
+    "tags": ["defend"],
+    "translation": "proteger",
+    "examples": ["Weatherbeater protects your roof from the rain"],
+    "transExamples": ["Weatherbeater protege tu techo de la lluvia"]
+  },
+  {
+    "word": "provide",
+    "types": "verb",
+    "tags": ["give"],
+    "translation": "proporcionar",
+    "examples": ["We provided the room with an electrical heater"],
+    "transExamples": ["Le dimos a la habitación un calentador eléctrico."]
+  },
+  {
+    "word": "public",
+    "types": "noun",
+    "tags": ["people"],
+    "translation": "público",
+    "examples": ["he is a hero in the eyes of the public"],
+    "transExamples": ["él es un héroe a los ojos del público"]
+  },
+  {
+    "word": "pull",
+    "types": "verb",
+    "tags": ["strip"],
+    "translation": "Halar",
+    "examples": ["pull a chicken"],
+    "transExamples": ["sacar un pollo"]
+  },
+  {
+    "word": "push",
+    "types": "verb",
+    "tags": ["urge on", "exhort", "press", "urge"],
+    "translation": "empujar",
+    "examples": ["He pushed her to finish her doctorate"],
+    "transExamples": ["La empujó a terminar su doctorado."]
+  },
+  {
+    "word": "put",
+    "types": "verb",
+    "tags": ["utilize", "utilise", "apply", "employ", "use"],
+    "translation": "poner",
+    "examples": [
+      "She put too much emphasis on her the last statement",
+      "He put all his efforts into this job",
+      "The teacher put an interesting twist to the interpretation of the story"
+    ],
+    "transExamples": [
+      "Puso demasiado énfasis en ella la última declaración",
+      "Puso todos sus esfuerzos en este trabajo",
+      "La maestra le dio un giro interesante a la interpretación de la historia."
+    ]
+  },
+  {
+    "word": "question",
+    "types": "noun",
+    "tags": ["uncertainness", "precariousness", "uncertainty"],
+    "translation": "pregunta",
+    "examples": ["there is no question about the validity of the enterprise"],
+    "transExamples": ["no hay duda sobre la validez de la empresa"]
+  },
+  {
+    "word": "race",
+    "types": "verb",
+    "tags": ["compete", "vie", "contend"],
+    "translation": "raza",
+    "examples": ["let's race and see who gets there first"],
+    "transExamples": ["corramos y veamos quién llega primero"]
+  },
+  {
+    "word": "raise",
+    "types": "verb",
+    "tags": ["create", "make"],
+    "translation": "aumento",
+    "examples": ["raise a smile"],
+    "transExamples": ["levanta una sonrisa"]
+  },
+  {
+    "word": "rate",
+    "types": "verb",
+    "tags": ["judge", "pass judgment", "evaluate"],
+    "translation": "Velocidad",
+    "examples": ["The restaurant is rated highly in the food guide"],
+    "transExamples": ["El restaurante está altamente calificado en la guía de alimentos."]
+  },
+  {
+    "word": "reach",
+    "types": "verb",
+    "tags": ["move"],
+    "translation": "alcanzar",
+    "examples": ["Government reaches out to the people"],
+    "transExamples": ["El gobierno se acerca a la gente"]
+  },
+  {
+    "word": "read",
+    "types": "verb",
+    "tags": ["have", "feature"],
+    "translation": "leer",
+    "examples": ["The passage reads as follows"],
+    "transExamples": ["El pasaje dice lo siguiente"]
+  },
+  {
+    "word": "reality",
+    "types": "noun",
+    "tags": ["experience"],
+    "translation": "realidad",
+    "examples": ["for them demons were as much a part of reality as trees were"],
+    "transExamples": [
+      "para ellos los demonios eran tan parte de la realidad como los árboles"
+    ]
+  },
+  {
+    "word": "record",
+    "types": "verb",
+    "tags": ["enter", "put down"],
+    "translation": "grabar",
+    "examples": ["They recorded her singing"],
+    "transExamples": ["La grabaron cantando"]
+  },
+  {
+    "word": "red",
+    "types": "noun",
+    "tags": ["amount", "sum", "amount of money", "sum of money"],
+    "translation": "rojo",
+    "examples": ["the company operated in the red last year"],
+    "transExamples": ["la compañía operaba en rojo el año pasado"]
+  },
+  {
+    "word": "reduce",
+    "types": "verb",
+    "tags": ["lessen", "minify", "decrease"],
+    "translation": "reducir",
+    "examples": ["reduce your daily fat intake"],
+    "transExamples": ["reducir su ingesta diaria de grasas"]
+  },
+  {
+    "word": "reflect",
+    "types": "verb",
+    "tags": ["give out", "emit", "give off"],
+    "translation": "reflejar",
+    "examples": ["Drive carefully--the wet road reflects"],
+    "transExamples": ["Conduzca con cuidado: el camino mojado refleja"]
+  },
+  {
+    "word": "region",
+    "types": "noun",
+    "tags": ["body part"],
+    "translation": "región",
+    "examples": ["in the abdominal region"],
+    "transExamples": ["en la región abdominal"]
+  },
+  {
+    "word": "relate",
+    "types": "verb",
+    "tags": ["cerebrate", "cogitate", "think"],
+    "translation": "relacionar",
+    "examples": ["I cannot relate these events at all"],
+    "transExamples": ["No puedo relacionar estos eventos en absoluto"]
+  },
+  {
+    "word": "remain",
+    "types": "verb",
+    "tags": ["be"],
+    "translation": "permanecer",
+    "examples": [
+      "The dress remained wet after repeated attempts to dry it",
+      "He remained unmoved by her tears"
+    ],
+    "transExamples": [
+      "El vestido permaneció húmedo después de repetidos intentos de secarlo.",
+      "Él permaneció impasible ante sus lágrimas."
+    ]
+  },
+  {
+    "word": "research",
+    "types": "verb",
+    "tags": ["look into", "investigate"],
+    "translation": "investigación",
+    "examples": [
+      "the students had to research the history of the Second World War for their history project"
+    ],
+    "transExamples": [
+      "los estudiantes tuvieron que investigar la historia de la Segunda Guerra Mundial para su proyecto de historia"
+    ]
+  },
+  {
+    "word": "resource",
+    "types": "noun",
+    "tags": ["ingeniousness", "inventiveness", "ingenuity", "cleverness"],
+    "translation": "recurso",
+    "examples": ["a man of resource"],
+    "transExamples": ["un hombre de recursos"]
+  },
+  {
+    "word": "responsibility",
+    "types": "noun",
+    "tags": ["trustworthiness", "trustiness"],
+    "translation": "responsabilidad",
+    "examples": ["he holds a position of great responsibility"],
+    "transExamples": ["ocupa un puesto de gran responsabilidad"]
+  },
+  {
+    "word": "return",
+    "types": "noun",
+    "tags": ["income"],
+    "translation": "regreso",
+    "examples": ["the average return was about 5%"],
+    "transExamples": ["el rendimiento promedio fue de aproximadamente 5%"]
+  },
+  {
+    "word": "rock",
+    "types": "verb",
+    "tags": ["move back and forth"],
+    "translation": "rock",
+    "examples": ["the ship was rocking", "She rocked back and forth on her feet"],
+    "transExamples": [
+      "la nave se balanceaba",
+      "Ella se balanceó de un lado a otro sobre sus pies"
+    ]
+  },
+  {
+    "word": "role",
+    "types": "noun",
+    "tags": ["duty"],
+    "translation": "papel",
+    "examples": ["play its role"],
+    "transExamples": ["desempeñar su papel"]
+  },
+  {
+    "word": "room",
+    "types": "noun",
+    "tags": ["spatial relation", "position"],
+    "translation": "habitación",
+    "examples": ["room to pass", "hardly enough elbow room to turn around"],
+    "transExamples": ["espacio para pasar", "apenas suficiente codo para darse la vuelta"]
+  },
+  {
+    "word": "save",
+    "types": "verb",
+    "tags": ["prevent", "forestall", "foreclose", "forbid", "preclude"],
+    "translation": "salvar",
+    "examples": [
+      "This will save money",
+      "I'll save you the trouble",
+      "This will save you a lot of time"
+    ],
+    "transExamples": [
+      "Esto ahorrará dinero",
+      "Te ahorraré el problema",
+      "Esto te ahorrara mucho tiempo"
+    ]
+  },
+  {
+    "word": "say",
+    "types": "verb",
+    "tags": ["have", "feature"],
+    "translation": "decir",
+    "examples": ["What does the law say?"],
+    "transExamples": ["¿Que dice la ley?"]
+  },
+  {
+    "word": "school",
+    "types": "noun",
+    "tags": ["animal group"],
+    "translation": "colegio",
+    "examples": ["a school of small glittering fish swam by"],
+    "transExamples": ["una escuela de pequeños peces brillantes nadó por"]
+  },
+  {
+    "word": "science",
+    "types": "noun",
+    "tags": ["power", "ability"],
+    "translation": "Ciencias",
+    "examples": ["the sweet science of pugilism"],
+    "transExamples": ["la dulce ciencia del pugilismo"]
+  },
+  {
+    "word": "score",
+    "types": "noun",
+    "tags": ["sheet music"],
+    "translation": "Puntuación",
+    "examples": ["he studied the score of the sonata"],
+    "transExamples": ["estudió la partitura de la sonata"]
+  },
+  {
+    "word": "season",
+    "types": "noun",
+    "tags": ["period of time", "time period", "period"],
+    "translation": "temporada",
+    "examples": ["the regular sequence of the seasons"],
+    "transExamples": ["la secuencia regular de las estaciones"]
+  },
+  {
+    "word": "seat",
+    "types": "verb",
+    "tags": ["put", "place", "position", "set", "pose", "lay"],
+    "translation": "asiento",
+    "examples": ["The host seated me next to Mrs. Smith"],
+    "transExamples": ["El anfitrión me sentó junto a la señora Smith"]
+  },
+  {
+    "word": "section",
+    "types": "noun",
+    "tags": ["writing", "piece of writing", "written material", "music"],
+    "translation": "sección",
+    "examples": [
+      "he always turns first to the business section",
+      "the history of this work is discussed in the next section"
+    ],
+    "transExamples": [
+      "siempre se dirige primero a la sección de negocios",
+      "la historia de este trabajo se discute en la siguiente sección"
+    ]
+  },
+  {
+    "word": "security",
+    "types": "noun",
+    "tags": ["assets"],
+    "translation": "seguridad",
+    "examples": ["his pension gave him security in his old age"],
+    "transExamples": ["su pensión le dio seguridad en su vejez"]
+  },
+  {
+    "word": "see",
+    "types": "verb",
+    "tags": ["care", "give care"],
+    "translation": "ver",
+    "examples": ["Could you see about lunch?"],
+    "transExamples": ["¿Podrías ver sobre el almuerzo?"]
+  },
+  {
+    "word": "seek",
+    "types": "verb",
+    "tags": ["move", "act"],
+    "translation": "buscar",
+    "examples": ["She always seeks to do good in the world"],
+    "transExamples": ["Ella siempre busca hacer el bien en el mundo"]
+  },
+  {
+    "word": "seem",
+    "types": "verb",
+    "tags": ["be"],
+    "translation": "parecer",
+    "examples": ["She seems to be sleeping"],
+    "transExamples": ["Ella parece estar durmiendo"]
+  },
+  {
+    "word": "sense",
+    "types": "noun",
+    "tags": ["significance", "signification", "meaning", "import"],
+    "translation": "sentido",
+    "examples": [
+      "the dictionary gave several senses for the word",
+      "in the best sense charity is really a duty"
+    ],
+    "transExamples": [
+      "el diccionario le dio varios sentidos a la palabra",
+      "en el mejor sentido, la caridad es realmente un deber"
+    ]
+  },
+  {
+    "word": "serve",
+    "types": "verb",
+    "tags": ["copulate", "mate", "pair", "couple"],
+    "translation": "servir",
+    "examples": ["male animals serve the females for breeding purposes"],
+    "transExamples": ["los machos sirven a las hembras con fines de reproducción"]
+  },
+  {
+    "word": "set",
+    "types": "noun",
+    "tags": ["social group"],
+    "translation": "conjunto",
+    "examples": ["the smart set goes there"],
+    "transExamples": ["el conjunto inteligente va allí"]
+  },
+  {
+    "word": "sex",
+    "types": "noun",
+    "tags": ["physiological property"],
+    "translation": "sexo",
+    "examples": ["she didn't want to know the sex of the foetus"],
+    "transExamples": ["ella no quería saber el sexo del feto"]
+  },
+  {
+    "word": "share",
+    "types": "noun",
+    "tags": ["try", "endeavour", "endeavor", "effort", "attempt"],
+    "translation": "compartir",
+    "examples": ["they all did their share of the work"],
+    "transExamples": ["todos hicieron su parte del trabajo"]
+  },
+  {
+    "word": "shoot",
+    "types": "verb",
+    "tags": ["record", "enter", "put down"],
+    "translation": "disparar",
+    "examples": ["shoot a movie"],
+    "transExamples": ["filmar una película"]
+  },
+  {
+    "word": "shoulder",
+    "types": "noun",
+    "tags": ["edge"],
+    "translation": "hombro",
+    "examples": ["the car pulled off onto the shoulder"],
+    "transExamples": ["el auto se detuvo en el hombro"]
+  },
+  {
+    "word": "show",
+    "types": "verb",
+    "tags": ["inform"],
+    "translation": "show",
+    "examples": ["The blood test showed that he was the father"],
+    "transExamples": ["El análisis de sangre mostró que él era el padre."]
+  },
+  {
+    "word": "side",
+    "types": "noun",
+    "tags": ["view", "opinion"],
+    "translation": "lado",
+    "examples": ["there are two sides to every question"],
+    "transExamples": ["hay dos lados para cada pregunta"]
+  },
+  {
+    "word": "sign",
+    "types": "noun",
+    "tags": ["structure", "construction"],
+    "translation": "firmar",
+    "examples": ["the highway was lined with signboards"],
+    "transExamples": ["la carretera estaba llena de letreros"]
+  },
+  {
+    "word": "sing",
+    "types": "verb",
+    "tags": ["sound", "go"],
+    "translation": "canta",
+    "examples": ["the kettle was singing"],
+    "transExamples": ["la tetera estaba cantando"]
+  },
+  {
+    "word": "sister",
+    "types": "noun",
+    "tags": ["female sibling"],
+    "translation": "hermana",
+    "examples": ["my sister married a musician"],
+    "transExamples": ["mi hermana se casó con un músico"]
+  },
+  {
+    "word": "sit",
+    "types": "verb",
+    "tags": ["guard"],
+    "translation": "sentar",
+    "examples": ["I cannot baby-sit tonight; I have too much homework to do"],
+    "transExamples": ["No puedo cuidar niños esta noche; Tengo demasiada tarea que hacer"]
+  },
+  {
+    "word": "situation",
+    "types": "noun",
+    "tags": ["condition", "status"],
+    "translation": "situación",
+    "examples": [
+      "the unpleasant situation (or position) of having to choose between two evils",
+      "found herself in a very fortunate situation"
+    ],
+    "transExamples": [
+      "La desagradable situación (o posición) de tener que elegir entre dos males",
+      "se encontró en una situación muy afortunada"
+    ]
+  },
+  {
+    "word": "size",
+    "types": "noun",
+    "tags": ["state of affairs", "situation"],
+    "translation": "Talla",
+    "examples": [
+      "that's the size of the situation",
+      "she hates me, that's about the size of it"
+    ],
+    "transExamples": [
+      "ese es el tamaño de la situación",
+      "ella me odia, eso es más o menos"
+    ]
+  },
+  {
+    "word": "society",
+    "types": "noun",
+    "tags": ["friendship", "friendly relationship"],
+    "translation": "sociedad",
+    "examples": ["he enjoyed the society of his friends"],
+    "transExamples": ["disfrutaba la sociedad de sus amigos"]
+  },
+  {
+    "word": "soldier",
+    "types": "noun",
+    "tags": ["enlisted person"],
+    "translation": "soldado",
+    "examples": ["the soldiers stood at attention"],
+    "transExamples": ["los soldados se pusieron firmes"]
+  },
+  {
+    "word": "song",
+    "types": "noun",
+    "tags": ["vocal music"],
+    "translation": "canción",
+    "examples": ["with a shout and a song they marched up to the gates"],
+    "transExamples": ["con un grito y una canción marcharon hacia las puertas"]
+  },
+  {
+    "word": "sort",
+    "types": "noun",
+    "tags": ["operation"],
+    "translation": "ordenar",
+    "examples": ["the bottleneck in mail delivery is the process of sorting"],
+    "transExamples": [
+      "El cuello de botella en la entrega de correo es el proceso de clasificación"
+    ]
+  },
+  {
+    "word": "source",
+    "types": "noun",
+    "tags": ["publication"],
+    "translation": "fuente",
+    "examples": ["he spent hours looking for the source of that quotation"],
+    "transExamples": ["pasó horas buscando la fuente de esa cita"]
+  },
+  {
+    "word": "speech",
+    "types": "noun",
+    "tags": ["auditory communication"],
+    "translation": "habla",
+    "examples": ["his speech was garbled"],
+    "transExamples": ["su discurso fue confuso"]
+  },
+  {
+    "word": "spend",
+    "types": "verb",
+    "tags": ["pay"],
+    "translation": "gastar",
+    "examples": ["spend money"],
+    "transExamples": ["gastar dinero"]
+  },
+  {
+    "word": "stage",
+    "types": "verb",
+    "tags": ["pioneer", "initiate"],
+    "translation": "etapa",
+    "examples": ["the neighboring tribe staged an invasion"],
+    "transExamples": ["la tribu vecina organizó una invasión"]
+  },
+  {
+    "word": "standard",
+    "types": "noun",
+    "tags": ["metric", "system of measurement"],
+    "translation": "estándar",
+    "examples": ["the schools comply with federal standards"],
+    "transExamples": ["las escuelas cumplen con los estándares federales"]
+  },
+  {
+    "word": "star",
+    "types": "verb",
+    "tags": ["mark"],
+    "translation": "estrella",
+    "examples": ["Linguists star unacceptable sentences"],
+    "transExamples": ["Los lingüistas protagonizan oraciones inaceptables"]
+  },
+  {
+    "word": "start",
+    "types": "verb",
+    "tags": ["begin", "lead off", "commence"],
+    "translation": "comienzo",
+    "examples": [
+      "Who started this company?",
+      "I start my day with a good breakfast",
+      "The blood shed started when the partisans launched a surprise attack"
+    ],
+    "transExamples": [
+      "¿Quién comenzó esta empresa?",
+      "Empiezo el día con un buen desayuno.",
+      "El derramamiento de sangre comenzó cuando los partisanos lanzaron un ataque sorpresa"
+    ]
+  },
+  {
+    "word": "step",
+    "types": "verb",
+    "tags": ["handle", "treat", "do by"],
+    "translation": "paso",
+    "examples": ["She is always stepping on others to get ahead"],
+    "transExamples": ["Ella siempre está pisando a otros para salir adelante"]
+  },
+  {
+    "word": "stock",
+    "types": "noun",
+    "tags": ["grip", "handle", "support", "handgrip", "hold"],
+    "translation": "valores",
+    "examples": ["the rifle had been fitted with a special stock"],
+    "transExamples": ["el rifle había sido equipado con un stock especial"]
+  },
+  {
+    "word": "story",
+    "types": "noun",
+    "tags": ["record"],
+    "translation": "historia",
+    "examples": ["a history of France", "the story of exposure to lead"],
+    "transExamples": ["una historia de francia", "la historia de la exposición al plomo"]
+  },
+  {
+    "word": "street",
+    "types": "noun",
+    "tags": ["opportunity", "chance"],
+    "translation": "calle",
+    "examples": ["he worked both sides of the street", "cooperation is a two-way street"],
+    "transExamples": [
+      "trabajó ambos lados de la calle",
+      "la cooperación es una calle de doble sentido"
+    ]
+  },
+  {
+    "word": "structure",
+    "types": "noun",
+    "tags": ["scheme", "system"],
+    "translation": "estructura",
+    "examples": ["sociologists have studied the changing structure of the family"],
+    "transExamples": [
+      "los sociólogos han estudiado la estructura cambiante de la familia"
+    ]
+  },
+  {
+    "word": "study",
+    "types": "noun",
+    "tags": ["domain", "knowledge domain", "knowledge base"],
+    "translation": "estudiar",
+    "examples": ["anthropology is the study of human beings"],
+    "transExamples": ["la antropología es el estudio de los seres humanos."]
+  },
+  {
+    "word": "style",
+    "types": "verb",
+    "tags": ["know as", "call", "be known as", "name"],
+    "translation": "estilo",
+    "examples": ["They styled their nation `The Confederate States'"],
+    "transExamples": ["Ellos llamaron a su nación &#39;Los Estados Confederados&#39;"]
+  },
+  {
+    "word": "subject",
+    "types": "noun",
+    "tags": ["knowledge domain", "knowledge base", "domain"],
+    "translation": "tema",
+    "examples": ["teachers should be well trained in their subject"],
+    "transExamples": ["los maestros deben estar bien entrenados en su materia"]
+  },
+  {
+    "word": "success",
+    "types": "noun",
+    "tags": ["person", "mortal", "somebody", "someone", "soul", "individual"],
+    "translation": "éxito",
+    "examples": ["if you want to be a success you have to dress like a success"],
+    "transExamples": ["si quieres ser un éxito tienes que vestirte como un éxito"]
+  },
+  {
+    "word": "summer",
+    "types": "noun",
+    "tags": ["season", "time of year"],
+    "translation": "verano",
+    "examples": ["they spent a lazy summer at the shore"],
+    "transExamples": ["pasaron un verano perezoso en la orilla"]
+  },
+  {
+    "word": "support",
+    "types": "noun",
+    "tags": ["resource"],
+    "translation": "apoyo",
+    "examples": ["the foundation provided support for the experiment"],
+    "transExamples": ["la fundación brindó apoyo para el experimento"]
+  },
+  {
+    "word": "system",
+    "types": "noun",
+    "tags": ["orderliness", "methodicalness"],
+    "translation": "sistema",
+    "examples": ["we can't do it unless we establish some system around here"],
+    "transExamples": [
+      "no podemos hacerlo a menos que establezcamos algún sistema por aquí"
+    ]
+  },
+  {
+    "word": "talk",
+    "types": "verb",
+    "tags": ["intercommunicate", "communicate"],
+    "translation": "hablar",
+    "examples": ["We often talk business", "Actions talk louder than words"],
+    "transExamples": [
+      "A menudo hablamos de negocios",
+      "Las acciones hablan más que las palabras"
+    ]
+  },
+  {
+    "word": "task",
+    "types": "noun",
+    "tags": ["duty"],
+    "translation": "tarea",
+    "examples": ["the endless task of classifying the samples"],
+    "transExamples": ["la interminable tarea de clasificar las muestras"]
+  },
+  {
+    "word": "team",
+    "types": "verb",
+    "tags": ["aggroup", "group"],
+    "translation": "equipo",
+    "examples": ["We teamed up for this new project"],
+    "transExamples": ["Nos unimos para este nuevo proyecto"]
+  },
+  {
+    "word": "tend",
+    "types": "verb",
+    "tags": ["be"],
+    "translation": "tender",
+    "examples": ["She tends to be nervous before her lectures"],
+    "transExamples": ["Ella tiende a estar nerviosa antes de sus conferencias."]
+  },
+  {
+    "word": "term",
+    "types": "noun",
+    "tags": ["point in time", "point"],
+    "translation": "término",
+    "examples": ["a healthy baby born at full term"],
+    "transExamples": ["un bebé sano nacido a término"]
+  },
+  {
+    "word": "theory",
+    "types": "noun",
+    "tags": ["concept", "construct", "conception"],
+    "translation": "teoría",
+    "examples": [
+      "a scientific hypothesis that survives experimental testing becomes a scientific theory",
+      "he proposed a fresh theory of alkalis that later was accepted in chemical practices"
+    ],
+    "transExamples": [
+      "Una hipótesis científica que sobrevive a las pruebas experimentales se convierte en una teoría científica.",
+      "propuso una nueva teoría de los álcalis que luego fue aceptada en las prácticas químicas"
+    ]
+  },
+  {
+    "word": "thing",
+    "types": "noun",
+    "tags": ["concern"],
+    "translation": "cosa",
+    "examples": ["things are going well"],
+    "transExamples": ["las cosas estan yendo bien"]
+  },
+  {
+    "word": "think",
+    "types": "verb",
+    "tags": ["evaluate", "pass judgment", "judge"],
+    "translation": "pensar",
+    "examples": ["I think he is very smart", "I think that he is her boyfriend"],
+    "transExamples": ["Creo que es muy inteligente", "Creo que es su novio"]
+  },
+  {
+    "word": "thought",
+    "types": "noun",
+    "tags": ["belief"],
+    "translation": "pensamiento",
+    "examples": ["what are your thoughts on Haiti?"],
+    "transExamples": ["¿Qué piensas sobre Haití?"]
+  },
+  {
+    "word": "throw",
+    "types": "verb",
+    "tags": ["lock", "operate", "mesh", "engage"],
+    "translation": "lanzar",
+    "examples": ["throw the lever"],
+    "transExamples": ["tira la palanca"]
+  },
+  {
+    "word": "time",
+    "types": "noun",
+    "tags": ["meter reading", "indication", "reading"],
+    "translation": "hora",
+    "examples": ["do you know what time it is?", "the time is 10 o'clock"],
+    "transExamples": ["¿sabes que hora es?", "son las 10 en punto"]
+  },
+  {
+    "word": "town",
+    "types": "noun",
+    "tags": [
+      "territorial division",
+      "administrative division",
+      "administrative district"
+    ],
+    "translation": "pueblo",
+    "examples": ["the town is responsible for snow removal"],
+    "transExamples": ["la ciudad es responsable de quitar la nieve"]
+  },
+  {
+    "word": "treat",
+    "types": "verb",
+    "tags": ["provide", "supply", "ply", "cater"],
+    "translation": "tratar",
+    "examples": [
+      "Don't worry about the expensive wine--I'm treating",
+      "She treated her houseguests with good food every night"
+    ],
+    "transExamples": [
+      "No te preocupes por el vino caro, estoy tratando",
+      "Trataba a sus invitados con buena comida todas las noches."
+    ]
+  },
+  {
+    "word": "treatment",
+    "types": "noun",
+    "tags": ["management", "direction"],
+    "translation": "tratamiento",
+    "examples": [
+      "the treatment of water sewage",
+      "the right to equal treatment in the criminal justice system"
+    ],
+    "transExamples": [
+      "el tratamiento de aguas residuales",
+      "El derecho a la igualdad de trato en el sistema de justicia penal"
+    ]
+  },
+  {
+    "word": "trial",
+    "types": "noun",
+    "tags": ["experimentation", "experiment"],
+    "translation": "juicio",
+    "examples": [
+      "a sample for ten days free trial",
+      "a trial of progesterone failed to relieve the pain"
+    ],
+    "transExamples": [
+      "una muestra por diez días de prueba gratis",
+      "un ensayo de progesterona no logró aliviar el dolor"
+    ]
+  },
+  {
+    "word": "trouble",
+    "types": "noun",
+    "tags": ["difficulty"],
+    "translation": "problema",
+    "examples": ["one trouble after another delayed the job"],
+    "transExamples": ["un problema tras otro retrasó el trabajo"]
+  },
+  {
+    "word": "truth",
+    "types": "noun",
+    "tags": ["quality"],
+    "translation": "verdad",
+    "examples": ["the lawyer questioned the truth of my account"],
+    "transExamples": ["el abogado cuestionó la verdad de mi cuenta"]
+  },
+  {
+    "word": "try",
+    "types": "verb",
+    "tags": ["melt", "melt down", "run"],
+    "translation": "tratar",
+    "examples": ["try the yak butter"],
+    "transExamples": ["prueba la mantequilla de yak"]
+  },
+  {
+    "word": "turn",
+    "types": "verb",
+    "tags": ["till"],
+    "translation": "giro",
+    "examples": ["turn the earth in the Spring"],
+    "transExamples": ["convertir la tierra en la primavera"]
+  },
+  {
+    "word": "type",
+    "types": "noun",
+    "tags": ["grownup", "adult"],
+    "translation": "tipo",
+    "examples": ["the capable type"],
+    "transExamples": ["el tipo capaz"]
+  },
+  {
+    "word": "understand",
+    "types": "verb",
+    "tags": ["believe"],
+    "translation": "entender",
+    "examples": ["I understand you have no previous experience?"],
+    "transExamples": ["Entiendo que no tienes experiencia previa?"]
+  },
+  {
+    "word": "unit",
+    "types": "noun",
+    "tags": ["organization", "organisation"],
+    "translation": "unidad",
+    "examples": [
+      "the coach said the offensive unit did a good job",
+      "after the battle the soldier had trouble rejoining his unit"
+    ],
+    "transExamples": [
+      "el entrenador dijo que la unidad ofensiva hizo un buen trabajo",
+      "después de la batalla, el soldado tuvo problemas para volver a unirse a su unidad"
+    ]
+  },
+  {
+    "word": "view",
+    "types": "noun",
+    "tags": ["looking", "looking at", "look"],
+    "translation": "ver",
+    "examples": ["he tried to get a better view of it"],
+    "transExamples": ["trató de obtener una mejor vista"]
+  },
+  {
+    "word": "violence",
+    "types": "noun",
+    "tags": ["intensiveness", "intensity"],
+    "translation": "violencia",
+    "examples": ["the storm's violence"],
+    "transExamples": ["la violencia de la tormenta"]
+  },
+  {
+    "word": "voice",
+    "types": "noun",
+    "tags": ["communication"],
+    "translation": "voz",
+    "examples": ["a singer takes good care of his voice"],
+    "transExamples": ["un cantante cuida bien su voz"]
+  },
+  {
+    "word": "vote",
+    "types": "noun",
+    "tags": ["enfranchisement", "franchise"],
+    "translation": "votar",
+    "examples": ["American women got the vote in 1920"],
+    "transExamples": ["Las mujeres estadounidenses obtuvieron el voto en 1920"]
+  },
+  {
+    "word": "wait",
+    "types": "noun",
+    "tags": ["inactivity"],
+    "translation": "Espere",
+    "examples": ["the wait was an ordeal for him"],
+    "transExamples": ["la espera fue un calvario para él"]
+  },
+  {
+    "word": "walk",
+    "types": "noun",
+    "tags": ["locomotion", "travel"],
+    "translation": "caminar",
+    "examples": ["walking is a healthy form of exercise"],
+    "transExamples": ["caminar es una forma saludable de ejercicio"]
+  },
+  {
+    "word": "wall",
+    "types": "noun",
+    "tags": ["embankment"],
+    "translation": "pared",
+    "examples": ["they blew the trumpet and the walls came tumbling down"],
+    "transExamples": ["tocaron la trompeta y las paredes se derrumbaron"]
+  },
+  {
+    "word": "want",
+    "types": "verb",
+    "tags": ["be"],
+    "translation": "desear",
+    "examples": ["This piano wants the attention of a competent tuner"],
+    "transExamples": ["Este piano quiere la atención de un afinador competente"]
+  },
+  {
+    "word": "war",
+    "types": "noun",
+    "tags": ["action", "military action"],
+    "translation": "guerra",
+    "examples": ["thousands of people were killed in the war"],
+    "transExamples": ["miles de personas murieron en la guerra"]
+  },
+  {
+    "word": "water",
+    "types": "noun",
+    "tags": ["thing"],
+    "translation": "agua",
+    "examples": [
+      "they invaded our territorial waters",
+      "they were sitting by the water's edge"
+    ],
+    "transExamples": [
+      "invadieron nuestras aguas territoriales",
+      "estaban sentados a la orilla del agua"
+    ]
+  },
+  {
+    "word": "way",
+    "types": "noun",
+    "tags": ["position", "spatial relation"],
+    "translation": "camino",
+    "examples": ["make way for"],
+    "transExamples": ["dar paso a"]
+  },
+  {
+    "word": "weapon",
+    "types": "noun",
+    "tags": ["instrument"],
+    "translation": "arma",
+    "examples": ["he was licensed to carry a weapon"],
+    "transExamples": ["tenía licencia para portar un arma"]
+  },
+  {
+    "word": "week",
+    "types": "noun",
+    "tags": ["work time"],
+    "translation": "semana",
+    "examples": ["they worked a 40-hour week"],
+    "transExamples": ["trabajaron una semana de 40 horas"]
+  },
+  {
+    "word": "while",
+    "types": "noun",
+    "tags": ["time"],
+    "translation": "mientras",
+    "examples": ["he was here for a little while"],
+    "transExamples": ["estuvo aquí un rato"]
+  },
+  {
+    "word": "window",
+    "types": "noun",
+    "tags": ["pane of glass", "window glass", "pane"],
+    "translation": "ventana",
+    "examples": ["the ball shattered the window"],
+    "transExamples": ["la pelota destrozó la ventana"]
+  },
+  {
+    "word": "woman",
+    "types": "noun",
+    "tags": ["cleaner"],
+    "translation": "mujer",
+    "examples": ["I have a woman who comes in four hours a day while I write"],
+    "transExamples": ["Tengo una mujer que viene cuatro horas al día mientras escribo"]
+  },
+  {
+    "word": "wonder",
+    "types": "noun",
+    "tags": ["occurrence", "natural event", "happening", "occurrent"],
+    "translation": "preguntarse",
+    "examples": ["the wonders of modern science"],
+    "transExamples": ["las maravillas de la ciencia moderna"]
+  },
+  {
+    "word": "work",
+    "types": "verb",
+    "tags": ["manipulate"],
+    "translation": "trabajo",
+    "examples": ["work the clay until it is soft"],
+    "transExamples": ["trabajar la arcilla hasta que esté suave"]
+  },
+  {
+    "word": "worker",
+    "types": "noun",
+    "tags": ["common man", "common person", "commoner"],
+    "translation": "trabajador",
+    "examples": ["workers of the world--unite!"],
+    "transExamples": ["¡Trabajadores del mundo, únanse!"]
+  },
+  {
+    "word": "world",
+    "types": "noun",
+    "tags": ["stratum", "class", "socio-economic class", "social class"],
+    "translation": "mundo",
+    "examples": ["the Western world"],
+    "transExamples": ["El mundo occidental"]
+  },
+  {
+    "word": "wrong",
+    "types": "noun",
+    "tags": ["injustice", "unjustness"],
+    "translation": "incorrecto",
+    "examples": ["he feels that you are in the wrong"],
+    "transExamples": ["él siente que estás equivocado"]
+  },
+  {
+    "word": "year",
+    "types": "noun",
+    "tags": ["assemblage", "gathering"],
+    "translation": "año",
+    "examples": ["she was in my year at Hoehandle High"],
+    "transExamples": ["ella estaba en mi año en Hoehandle High"]
+  },
+  {
+    "word": "yes",
+    "types": "noun",
+    "tags": ["affirmative"],
+    "translation": "si",
+    "examples": ["I was hoping for a yes"],
+    "transExamples": ["Esperaba un sí"]
+  }
+]
