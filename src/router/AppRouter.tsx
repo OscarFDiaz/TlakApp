@@ -12,7 +12,7 @@ export const AppRouter = () => {
 
   return (
     <Routes>
-      {status === AUTH_STATUS.notAuth ? (
+      {status === AUTH_STATUS.auth ? (
         <>
           <Route path="/auth/*" element={<Login />} />
           <Route path="/*" element={<Navigate to={'/auth/login'} />} />

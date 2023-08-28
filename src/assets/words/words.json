@@ -5,7 +5,7 @@
     "tags": ["respond", "react"],
     "translation": "aceptar",
     "examples": ["I cannot accept your invitation"],
-    "transExamples": ["No puedo aceptar tu invitacion"]
+    "transExamples": ["No puedo aceptar tu invitación"]
   },
   {
     "word": "account",
@@ -194,7 +194,7 @@
   {
     "word": "attack",
     "types": "noun",
-    "tags": ["conceptualisation", "conceptualization", "formulation"],
+    "tags": ["conceptualization", "conceptualization", "formulation"],
     "translation": "ataque",
     "examples": ["an attack on inflation", "his plan of attack was misguided"],
     "transExamples": ["un ataque a la inflación", "su plan de ataque fue equivocado"]
@@ -258,7 +258,7 @@
   {
     "word": "bank",
     "types": "noun",
-    "tags": ["financial institution", "financial organization", "financial organisation"],
+    "tags": ["financial institution", "financial organization", "financial organization"],
     "translation": "banco",
     "examples": [
       "he cashed a check at the bank",
@@ -316,7 +316,7 @@
   {
     "word": "black",
     "types": "verb",
-    "tags": ["discolour", "color", "colour", "discolor"],
+    "tags": ["color", "discolor"],
     "translation": "negro",
     "examples": ["The smoke blackened the ceiling", "The ceiling blackened"],
     "transExamples": ["El humo ennegreció el techo", "El techo ennegrecido"]
@@ -398,7 +398,7 @@
     "transExamples": [
       "compró el negocio de su hermano",
       "un pequeño negocio familiar",
-      "una preocupación comercial racialmente integrada"
+      "una preocupación comercial radicalmente integrada"
     ]
   },
   {
@@ -476,7 +476,7 @@
   {
     "word": "chance",
     "types": "noun",
-    "tags": ["possibleness", "possibility"],
+    "tags": ["plausibleness", "possibility"],
     "translation": "oportunidad",
     "examples": ["now is your chance"],
     "transExamples": ["ahora es tu oportunidad"]
@@ -668,7 +668,7 @@
   {
     "word": "crime",
     "types": "noun",
-    "tags": ["offence", "offense"],
+    "tags": ["offense", "offense"],
     "translation": "crimen",
     "examples": ["a long record of crimes"],
     "transExamples": ["un largo historial de crímenes"]
@@ -802,7 +802,7 @@
   {
     "word": "device",
     "types": "noun",
-    "tags": ["manoeuvre", "maneuver", "tactical maneuver", "tactical manoeuvre"],
+    "tags": ["manoeuver", "maneuver", "tactical maneuver", "tactical manoeuver"],
     "translation": "dispositivo",
     "examples": ["he would stoop to any device to win a point"],
     "transExamples": ["se inclinaría a cualquier dispositivo para ganar un punto"]
@@ -1118,7 +1118,7 @@
     "tags": ["job", "line", "occupation", "business", "line of work"],
     "translation": "juego",
     "examples": ["he's in the plumbing game"],
-    "transExamples": ["él está en el juego de plomería"]
+    "transExamples": ["él está en el juego de plomearía"]
   },
   {
     "word": "girl",
@@ -1174,7 +1174,7 @@
     "tags": ["land site", "site"],
     "translation": "verde",
     "examples": ["the ball rolled across the green and into the bunker"],
-    "transExamples": ["la pelota rodó por el green y entró en el búnker"]
+    "transExamples": ["la pelota rodó por el green y entró en el bunker"]
   },
   {
     "word": "hair",
@@ -1248,7 +1248,7 @@
     "tags": ["record"],
     "translation": "historia",
     "examples": ["a history of France"],
-    "transExamples": ["una historia de francia"]
+    "transExamples": ["una historia de Francia"]
   },
   {
     "word": "hit",
