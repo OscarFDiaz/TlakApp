@@ -1,6 +1,5 @@
 import { Button, Card, CardBody, CardHeader, Chip, Input } from '@nextui-org/react';
-import { EyeSlashFilledIcon } from '../../assets/icons/EyeSlashFilledIcon';
-import { EyeFilledIcon } from '../../assets/icons/EyeFilledIcon';
+import { EyeSlashFilledIcon, EyeFilledIcon } from '../../assets/icons/';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuthStore } from '../../zustand/useAuthStore';
@@ -45,6 +44,8 @@ export const Register = () => {
     }
   };
 
+  const error = JSON.parse(JSON.stringify(errorMessage));
+
   return (
     <section className="grid place-items-center min-w-full min-h-screen dark text-foreground bg-gradient-to-b from-black to-gray-950">
       {status == AUTH_STATUS.checking && <Loader />}
@@ -70,7 +71,6 @@ export const Register = () => {
             name="name"
             value={formState.name}
             onChange={onInputChange}
-            onClear={() => console.log('input cleared')}
           />
           {nameValid && formSubmitted && (
             <Chip color="warning">{'Error: ' + nameValid}</Chip>
@@ -82,7 +82,6 @@ export const Register = () => {
             name="email"
             value={formState.email}
             onChange={onInputChange}
-            onClear={() => console.log('input cleared')}
           />
           {emailValid && formSubmitted && (
             <Chip color="warning">{'Error: ' + emailValid}</Chip>
@@ -119,7 +118,9 @@ export const Register = () => {
             Registrarme
           </Button>
 
-          {errorMessage ? <Chip color="warning">{'' + errorMessage}</Chip> : null}
+          {errorMessage && formSubmitted ? (
+            <Chip color="warning">{`${error.name}: ${error.code}`}</Chip>
+          ) : null}
 
           <Link to="/auth/login" className="self-end hover:text-cyan-400">
             ¿Ya tienes una cuenta? iniciar sesión

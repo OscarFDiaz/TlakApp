@@ -7,12 +7,10 @@ import {
   Divider,
   Input,
 } from '@nextui-org/react';
-import { EyeSlashFilledIcon } from '../../assets/icons/EyeSlashFilledIcon';
-import { EyeFilledIcon } from '../../assets/icons/EyeFilledIcon';
-import { GoogleIcon } from '../../assets/icons/GoogleIcon';
+import { useState } from 'react';
+import { EyeFilledIcon, GoogleIcon, EyeSlashFilledIcon } from '../../assets/icons/';
 import { Link } from 'react-router-dom';
 import { useAuthStore } from '../../zustand/useAuthStore';
-import { useState } from 'react';
 import { Loader } from '../../components/Loader';
 import { AUTH_STATUS } from '../../helpers/authStatus';
 import { useForm, FormValidations } from '../../hooks/useForm';
@@ -55,6 +53,8 @@ export const Login = () => {
     singInGoogle();
   };
 
+  const error = JSON.parse(JSON.stringify(errorMessage));
+
   return (
     <section className="grid place-items-center min-w-full min-h-screen dark text-foreground bg-gradient-to-b from-black to-gray-950">
       {status == AUTH_STATUS.checking && <Loader />}
@@ -77,7 +77,6 @@ export const Login = () => {
             type="email"
             label="Correo"
             placeholder="Ingresa tu correo"
-            onClear={() => console.log('input cleared')}
             name="email"
             value={email}
             onChange={onInputChange}
@@ -116,7 +115,9 @@ export const Login = () => {
           >
             Iniciar sesión
           </Button>
-          {errorMessage ? <Chip color="warning">{'' + errorMessage}</Chip> : null}
+          {errorMessage && formSubmitted ? (
+            <Chip color="warning">{`${error.name}: ${error.code}`}</Chip>
+          ) : null}
 
           <Link to="/auth/register" className="self-end hover:text-cyan-400">
             ¿No tienes una cuenta? regístrate
