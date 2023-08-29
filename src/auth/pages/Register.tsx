@@ -1,18 +1,10 @@
-import {
-  Button,
-  Card,
-  CardBody,
-  CardHeader,
-  Divider,
-  Input,
-  Link,
-} from '@nextui-org/react';
-import { EyeSlashFilledIcon } from '../assets/icons/EyeSlashFilledIcon';
-import { EyeFilledIcon } from '../assets/icons/EyeFilledIcon';
+import { Button, Card, CardBody, CardHeader, Input, Link } from '@nextui-org/react';
+import { EyeSlashFilledIcon } from '../../assets/icons/EyeSlashFilledIcon';
+import { EyeFilledIcon } from '../../assets/icons/EyeFilledIcon';
 import { useState } from 'react';
-import { GoogleIcon } from '../assets/icons/GoogleIcon';
+import { NavLink } from 'react-router-dom';
 
-export const Login = () => {
+export const Register = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => setIsVisible(!isVisible);
@@ -32,7 +24,13 @@ export const Login = () => {
           </small>
         </CardHeader>
         <CardBody className="overflow-visible py-2 gap-4">
-          <h4 className="font-semibold text-large pt-4">Ingresa tus datos</h4>
+          <h4 className="font-semibold text-large pt-4">Regístrate</h4>
+          <Input
+            type="text"
+            label="Nombre"
+            placeholder="Ingresa tu nombre"
+            onClear={() => console.log('input cleared')}
+          />
           <Input
             type="email"
             label="Correo"
@@ -57,23 +55,12 @@ export const Login = () => {
             }
             type={isVisible ? 'text' : 'password'}
           />
-          <Button aria-label="Iniciar sesión" className="hover:bg-gray-700">
-            Iniciar sesión
+          <Button aria-label="Registrarme" className="hover:bg-gray-700">
+            Registrarme
           </Button>
-          <Link href="#" color="foreground" className="self-end">
-            ¿No tienes una cuenta? regístrate
+          <Link color="foreground" className="self-end">
+            <NavLink to={'/auth/login'}>¿Ya tienes una cuenta? iniciar sesión</NavLink>
           </Link>
-          <Divider />
-
-          <div className="flex gap-4 items-center justify-center">
-            <Button
-              aria-label="Ingresar con Google"
-              endContent={<GoogleIcon />}
-              className="hover:bg-gray-700"
-            >
-              Entrar con Google
-            </Button>
-          </div>
         </CardBody>
       </Card>
     </section>
