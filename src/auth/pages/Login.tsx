@@ -12,11 +12,21 @@ import { EyeFilledIcon } from '../../assets/icons/EyeFilledIcon';
 import { useState } from 'react';
 import { GoogleIcon } from '../../assets/icons/GoogleIcon';
 import { NavLink } from 'react-router-dom';
+import { useAuthStore } from '../../zustand/useAuthStore';
 
 export const Login = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => setIsVisible(!isVisible);
+
+  const handleLogin = () => {
+    console.log('handleLogin');
+  };
+
+  const { singInGoogle } = useAuthStore();
+  const handleGoogle = () => {
+    singInGoogle();
+  };
 
   return (
     <section className="grid place-items-center min-w-full min-h-screen dark text-foreground bg-gradient-to-b from-black to-gray-950">
@@ -43,6 +53,7 @@ export const Login = () => {
           <Input
             label="Contraseña"
             placeholder="Ingresa tu contraseña"
+            type={isVisible ? 'text' : 'password'}
             endContent={
               <button
                 className="focus:outline-none"
@@ -56,9 +67,12 @@ export const Login = () => {
                 )}
               </button>
             }
-            type={isVisible ? 'text' : 'password'}
           />
-          <Button aria-label="Iniciar sesión" className="hover:bg-gray-700">
+          <Button
+            aria-label="Iniciar sesión"
+            className="hover:bg-gray-700"
+            onClick={handleLogin}
+          >
             Iniciar sesión
           </Button>
           <Link color="foreground" className="self-end">
@@ -71,6 +85,7 @@ export const Login = () => {
               aria-label="Ingresar con Google"
               endContent={<GoogleIcon />}
               className="hover:bg-gray-700"
+              onClick={handleGoogle}
             >
               Entrar con Google
             </Button>

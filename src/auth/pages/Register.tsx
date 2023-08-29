@@ -9,6 +9,10 @@ export const Register = () => {
 
   const toggleVisibility = () => setIsVisible(!isVisible);
 
+  const handleRegister = () => {
+    console.log('handleRegister');
+  };
+
   return (
     <section className="grid place-items-center min-w-full min-h-screen dark text-foreground bg-gradient-to-b from-black to-gray-950">
       <Card className="py-4 max-w-3xl mx-auto">
@@ -40,6 +44,7 @@ export const Register = () => {
           <Input
             label="Contraseña"
             placeholder="Ingresa tu contraseña"
+            type={isVisible ? 'text' : 'password'}
             endContent={
               <button
                 className="focus:outline-none"
@@ -53,9 +58,12 @@ export const Register = () => {
                 )}
               </button>
             }
-            type={isVisible ? 'text' : 'password'}
           />
-          <Button aria-label="Registrarme" className="hover:bg-gray-700">
+          <Button
+            aria-label="Registrarme"
+            className="hover:bg-gray-700"
+            onClick={handleRegister}
+          >
             Registrarme
           </Button>
           <Link color="foreground" className="self-end">
