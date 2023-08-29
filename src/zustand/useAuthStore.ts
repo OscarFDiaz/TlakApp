@@ -22,8 +22,6 @@ type Action = {
     email: Store['email'],
     displayName: Store['displayName'],
     password: string,
-    photoURL: Store['photoURL'],
-    errorMessage: Store['errorMessage'],
   ) => Promise<void>;
   singInGoogle: () => Promise<void>;
   login: (email: Store['email'], password: string) => Promise<void>;
@@ -32,13 +30,14 @@ type Action = {
 
 export const useAuthStore = create<Store & Action>()(
   devtools((set) => ({
-    status: AUTH_STATUS.checking,
+    status: AUTH_STATUS.notAuth,
     uid: '',
     photoURL: '',
     email: '',
     displayName: '',
     errorMessage: '',
     singInGoogle: async () => {
+      set({ status: AUTH_STATUS.checking });
       try {
         const userData = await signInWithGoogle();
         if (userData.ok) {
@@ -50,13 +49,14 @@ export const useAuthStore = create<Store & Action>()(
             displayName: userData.displayName || '',
           });
         } else {
-          set({ errorMessage: userData.errorMessage });
+          set({ errorMessage: userData.errorMessage, status: AUTH_STATUS.notAuth });
         }
       } catch (error) {
         console.log('Error: ', error);
       }
     },
-    register: async (email, password, displayName) => {
+    register: async (email, displayName, password) => {
+      set({ status: AUTH_STATUS.checking });
       try {
         const userData = await registerUserWithEmailPassword({
           email,
@@ -68,29 +68,35 @@ export const useAuthStore = create<Store & Action>()(
           set({
             status: AUTH_STATUS.auth,
             uid: userData.uid,
-            photoURL: userData.photoURL || '',
+            photoURL:
+              userData.photoURL ||
+              'https://w7.pngwing.com/pngs/81/570/png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png',
             email: userData.email,
             displayName: userData.displayName,
           });
         } else {
-          set({ errorMessage: userData.errorMessage });
+          set({ errorMessage: userData.errorMessage, status: AUTH_STATUS.notAuth });
         }
       } catch (error) {
         console.log('Error: ', error);
       }
     },
     login: async (email, password) => {
+      set({ status: AUTH_STATUS.checking });
       try {
         const userData = await loginWithEmailPassword({ email, password });
         if (userData.ok) {
           set({
             status: AUTH_STATUS.auth,
             uid: userData.uid,
-            photoURL: userData.photoURL || '',
+            email: userData.email,
+            photoURL:
+              userData.photoURL ||
+              'https://w7.pngwing.com/pngs/81/570/png-transparent-profile-logo-computer-icons-user-user-blue-heroes-logo-thumbnail.png',
             displayName: userData.displayName || '',
           });
         } else {
-          set({ errorMessage: userData.errorMessage });
+          set({ errorMessage: userData.errorMessage, status: AUTH_STATUS.notAuth });
         }
       } catch (error) {
         console.log('Error: ', error);

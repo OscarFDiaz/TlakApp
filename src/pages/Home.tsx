@@ -3,9 +3,11 @@ import { CardWord } from '../components/Card';
 
 export const Home = () => {
   return (
-    <main className="min-h-screen min-w-max grid place-items-center grid-rows-[max-content] dark text-foreground bg-gradient-to-b from-black to-gray-950">
+    <main className="min-h-screen dark text-foreground bg-gradient-to-b from-black to-gray-950">
       <Navbar />
-      <CardWord />
+      <div className="h-[80vh] flex justify-center items-center">
+        <CardWord />
+      </div>
     </main>
   );
 };

@@ -21,7 +21,7 @@ export const Navbar = () => {
   const { photoURL, displayName, email, logout } = useAuthStore();
 
   return (
-    <NavbarNext className="my-8">
+    <NavbarNext className="py-8 w-screen">
       <NavbarContent>
         <NavbarBrand>
           <p className="font-black text-2xl text-transparent bg-clip-text bg-gradient-to-t from-cyan-500 to-blue-500">
@@ -47,10 +47,10 @@ export const Navbar = () => {
           <DropdownTrigger>
             <User
               className="hover:bg-slate-800 p-2 rounded-full text-ellipsis"
-              name={displayName.slice(0, 15) + ' ...' || ''}
-              description={email || ''}
+              name={displayName || 'Not logged'}
+              description={email}
               avatarProps={{
-                src: photoURL || '',
+                src: photoURL,
               }}
             />
           </DropdownTrigger>

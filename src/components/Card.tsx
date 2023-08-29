@@ -3,7 +3,7 @@ import { IconVolume } from '@tabler/icons-react';
 
 export const CardWord = () => {
   return (
-    <Card className="py-4 max-w-3xl min-w-[480px] mx-auto">
+    <Card className="py-4 max-w-3xl mx-auto ">
       <CardHeader className="justify-between">
         <div className="flex gap-4 mx-auto">
           <div className="flex flex-col">

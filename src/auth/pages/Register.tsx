@@ -1,20 +1,54 @@
-import { Button, Card, CardBody, CardHeader, Input, Link } from '@nextui-org/react';
+import { Button, Card, CardBody, CardHeader, Chip, Input } from '@nextui-org/react';
 import { EyeSlashFilledIcon } from '../../assets/icons/EyeSlashFilledIcon';
 import { EyeFilledIcon } from '../../assets/icons/EyeFilledIcon';
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useAuthStore } from '../../zustand/useAuthStore';
+import { AUTH_STATUS } from '../../helpers/authStatus';
+import { Loader } from '../../components/Loader';
+import { FormValidations, useForm } from '../../hooks/useForm';
+
+const formData = {
+  name: '',
+  email: '',
+  password: '',
+};
+
+const formValidations: FormValidations = {
+  email: [(value: string) => value.includes('@'), 'El correo debe de tener una @'],
+  password: [
+    (value: string) => value.length >= 6,
+    'El password debe de tener más de 6 letras',
+  ],
+  name: [(value) => value.length >= 1, 'El nombre es obligatorio'],
+};
 
 export const Register = () => {
   const [isVisible, setIsVisible] = useState(false);
-
   const toggleVisibility = () => setIsVisible(!isVisible);
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
+  const { formState, onInputChange, isFormValid, formValidation } = useForm(
+    formData,
+    formValidations,
+  );
+
+  const { email, password, name } = formState;
+  const { emailValid, passwordValid, nameValid } = formValidation;
+
+  const { register, status, errorMessage } = useAuthStore();
 
   const handleRegister = () => {
-    console.log('handleRegister');
+    setFormSubmitted(true);
+    if (isFormValid) {
+      register(email, name, password);
+    }
   };
 
   return (
     <section className="grid place-items-center min-w-full min-h-screen dark text-foreground bg-gradient-to-b from-black to-gray-950">
+      {status == AUTH_STATUS.checking && <Loader />}
+
       <Card className="py-4 max-w-3xl mx-auto">
         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
           <h1 className="text-4xl font-semibold">
@@ -33,18 +67,33 @@ export const Register = () => {
             type="text"
             label="Nombre"
             placeholder="Ingresa tu nombre"
+            name="name"
+            value={formState.name}
+            onChange={onInputChange}
             onClear={() => console.log('input cleared')}
           />
+          {nameValid && formSubmitted && (
+            <Chip color="warning">{'Error: ' + nameValid}</Chip>
+          )}
           <Input
             type="email"
             label="Correo"
             placeholder="Ingresa tu correo"
+            name="email"
+            value={formState.email}
+            onChange={onInputChange}
             onClear={() => console.log('input cleared')}
           />
+          {emailValid && formSubmitted && (
+            <Chip color="warning">{'Error: ' + emailValid}</Chip>
+          )}
           <Input
             label="Contraseña"
             placeholder="Ingresa tu contraseña"
             type={isVisible ? 'text' : 'password'}
+            name="password"
+            value={formState.password}
+            onChange={onInputChange}
             endContent={
               <button
                 className="focus:outline-none"
@@ -59,6 +108,9 @@ export const Register = () => {
               </button>
             }
           />
+          {passwordValid && formSubmitted && (
+            <Chip color="warning">{'Error: ' + passwordValid}</Chip>
+          )}
           <Button
             aria-label="Registrarme"
             className="hover:bg-gray-700"
@@ -66,8 +118,11 @@ export const Register = () => {
           >
             Registrarme
           </Button>
-          <Link color="foreground" className="self-end">
-            <NavLink to={'/auth/login'}>¿Ya tienes una cuenta? iniciar sesión</NavLink>
+
+          {errorMessage ? <Chip color="warning">{'' + errorMessage}</Chip> : null}
+
+          <Link to="/auth/login" className="self-end hover:text-cyan-400">
+            ¿Ya tienes una cuenta? iniciar sesión
           </Link>
         </CardBody>
       </Card>
