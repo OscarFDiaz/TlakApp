@@ -2,10 +2,10 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import { Home } from '../layouts/Home';
 import { AuthRoute } from '../auth/routes/AuthRoute';
 import { AUTH_STATUS } from '../helpers/authStatus';
+import { useAuthStore } from '../zustand/useAuthStore';
 
 export const AppRouter = () => {
-  // const status = 'not-authenticated';
-  const status = AUTH_STATUS.notAuth;
+  const { status } = useAuthStore();
 
   return (
     <Routes>
