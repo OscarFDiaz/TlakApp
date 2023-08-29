@@ -1,4 +1,4 @@
-import { Navbar } from './Navbar';
+import { Navbar } from '../layouts/Navbar';
 import { CardWord } from '../components/Card';
 
 export const Home = () => {

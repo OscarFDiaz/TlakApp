@@ -11,11 +11,14 @@ import {
   DropdownItem,
 } from '@nextui-org/react';
 import { IconLogout } from '@tabler/icons-react';
+import { useAuthStore } from '../zustand/useAuthStore';
 
 export const Navbar = () => {
   const handleOnClick = () => {
-    console.log('OnclickProfile');
+    logout();
   };
+
+  const { photoURL, displayName, email, logout } = useAuthStore();
 
   return (
     <NavbarNext className="my-8">
@@ -43,10 +46,11 @@ export const Navbar = () => {
         <Dropdown showArrow>
           <DropdownTrigger>
             <User
-              className="hover:bg-slate-800 p-2 rounded-full"
-              name="Jane Doe"
+              className="hover:bg-slate-800 p-2 rounded-full text-ellipsis"
+              name={displayName.slice(0, 15) + ' ...' || ''}
+              description={email || ''}
               avatarProps={{
-                src: 'https://i.pravatar.cc/150?u=a04258114e29026702d',
+                src: photoURL || '',
               }}
             />
           </DropdownTrigger>
