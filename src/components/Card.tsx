@@ -1,6 +1,5 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-/* eslint-disable react-hooks/exhaustive-deps */
 import {
+  Button,
   Card,
   CardBody,
   CardFooter,
@@ -9,72 +8,11 @@ import {
   CircularProgress,
   Tooltip,
 } from '@nextui-org/react';
-import { IconVolume } from '@tabler/icons-react';
-import { useEffect, useState } from 'react';
-import { getUserWords } from '../helpers/getUserWords';
-import { useAuthStore } from '../zustand/useAuthStore';
-import { wordsArray } from '../helpers/wordsArray';
+import { IconRefresh, IconVolume } from '@tabler/icons-react';
+import { useCard } from '../hooks/useCard';
 // import { addNewWord } from '../helpers/addNewWord';
 
-interface Word {
-  word: string;
-}
-
-interface RandomWord {
-  word: string;
-  types: string;
-  tags: string[];
-  translation: string;
-  examples: string[];
-  transExamples: string[];
-}
-
 export const CardWord = () => {
-  const { uid } = useAuthStore();
-
-  const [isLearned, setIsLearned] = useState(false);
-  const [words, setWords] = useState<Word[]>([]);
-  const [currentWord, setCurrentWord] = useState<RandomWord>();
-  const [sound, setSound] = useState<HTMLAudioElement | null>(null);
-  const [soundLoaded, setSoundLoaded] = useState(false);
-
-  // Get random word from data
-  useEffect(() => {
-    setIsLearned(false);
-
-    const randomIndex = Math.floor(Math.random() * wordsArray.words.length);
-    const randomWord = wordsArray.words[randomIndex];
-    setCurrentWord(randomWord);
-
-    if (!currentWord) return;
-    if (words.includes(currentWord)) {
-      setIsLearned(true);
-    }
-  }, [isLearned]);
-
-  // Get learned words from firebase
-  useEffect(() => {
-    const fetchWords = async () => {
-      const userWords = await getUserWords(uid);
-      setWords(userWords);
-    };
-    fetchWords();
-  }, []);
-
-  const loadSound = async () => {
-    const soundModule = await import(`../assets/audio/${currentWord?.word}.mp3`);
-    const audio = new Audio(soundModule.default);
-    setSound(audio);
-    setSoundLoaded(true);
-  };
-
-  const handleAudioClick = () => {
-    loadSound();
-    if (sound) {
-      sound.play();
-    }
-  };
-
   // useEffect(() => {
   // getUserWords(uid);
   // addNewWord(uid, 'prueba');
@@ -87,30 +25,34 @@ export const CardWord = () => {
   // const { words } = wordsArray;
   // });
 
+  const { currentWord, soundLoaded, handleAudioClick, handleChangeWord } = useCard();
+
   return (
-    <Card className="py-4 max-w-3xl mx-auto ">
+    <Card className="py-4 max-w-3xl mx-auto justify-center">
       <CardHeader className="justify-between">
         <div className="flex gap-4 mx-auto">
           <div className="flex flex-col ">
-            <p className="font-medium text-2xl text-gray-400">{currentWord?.types}</p>
+            <p className="font-medium text-2xl text-gray-400 lowercase">
+              {currentWord?.types}
+            </p>
             <p className="flex flex-row gap-5 text-7xl text-slate-50 ">
               {currentWord?.word}
             </p>
-            <p className="self-end font-medium text-2xl text-gray-400">
+            <p className="self-end font-medium text-2xl text-gray-400 lowercase">
               {currentWord?.translation}
             </p>
           </div>
           <div className="self-center">
             <Tooltip showArrow={true} content="Reproducir sonido">
-              {!soundLoaded ? (
-                <CircularProgress aria-label="Cargando..." />
-              ) : (
+              {soundLoaded ? (
                 <IconVolume
                   size={'4.5rem'}
                   color="#1ab7ea"
                   className="cursor-pointer hover:drop-shadow-2xl"
                   onClick={handleAudioClick}
                 />
+              ) : (
+                <CircularProgress aria-label="Cargando..." />
               )}
             </Tooltip>
           </div>
@@ -128,13 +70,21 @@ export const CardWord = () => {
           ))}
         </div>
       </CardBody>
-      <CardFooter className="gap-3 px-7 flex-wrap w-full">
+      <CardFooter className="gap-3 px-7 flex-wrap w-full ">
         {currentWord?.tags.map((tag, i) => (
           <div className="flex gap-1" key={i}>
             <Chip>{tag}</Chip>
           </div>
         ))}
       </CardFooter>
+      <Button
+        color="secondary"
+        startContent={<IconRefresh />}
+        onClick={handleChangeWord}
+        className="mx-4 mt-8"
+      >
+        Carga otra palabra
+      </Button>
     </Card>
   );
 };
