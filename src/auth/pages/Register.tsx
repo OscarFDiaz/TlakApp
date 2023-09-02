@@ -122,8 +122,8 @@ export const Register = () => {
             <Chip color="warning">{`${error.name}: ${error.code}`}</Chip>
           ) : null}
 
-          <Link to="/auth/login" className="self-end hover:text-cyan-400">
-            ¿Ya tienes una cuenta? iniciar sesión
+          <Link to="/auth/login" className="self-center hover:text-cyan-400">
+            ¿Ya tienes una cuenta? Iniciar sesión
           </Link>
         </CardBody>
       </Card>

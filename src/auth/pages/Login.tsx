@@ -119,8 +119,8 @@ export const Login = () => {
             <Chip color="warning">{`${error.name}: ${error.code}`}</Chip>
           ) : null}
 
-          <Link to="/auth/register" className="self-end hover:text-cyan-400">
-            ¿No tienes una cuenta? regístrate
+          <Link to="/auth/register" className="self-center hover:text-cyan-400">
+            ¿No tienes una cuenta? Regístrate
           </Link>
 
           <Divider />
