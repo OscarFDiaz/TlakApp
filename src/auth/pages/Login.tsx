@@ -14,6 +14,7 @@ import { useAuthStore } from '../../zustand/useAuthStore';
 import { Loader } from '../../components/Loader';
 import { AUTH_STATUS } from '../../helpers/authStatus';
 import { useForm, FormValidations } from '../../hooks/useForm';
+import { IconAlertCircle } from '@tabler/icons-react';
 
 const formData = {
   email: '',
@@ -21,10 +22,10 @@ const formData = {
 };
 
 const formValidations: FormValidations = {
-  email: [(value: string) => value.includes('@'), 'El correo debe de tener una @'],
+  email: [(value: string) => /\S+@\S+\.\S+/.test(value), 'Formato de correo invalido.'],
   password: [
     (value: string) => value.length >= 6,
-    'El password debe de tener más de 6 letras',
+    'Ingresa una contraseña con mayor longitud. (6)',
   ],
 };
 
@@ -53,7 +54,22 @@ export const Login = () => {
     singInGoogle();
   };
 
-  const error = JSON.parse(JSON.stringify(errorMessage));
+  const handleError = (errorMessage: string) => {
+    switch (errorMessage) {
+      case 'auth/user-not-found':
+        return 'Usuario no encontrado';
+        break;
+      case 'auth/wrong-password':
+        return 'Verifique el usuario o la contraseña';
+        break;
+      default:
+        return 'Ha ocurrido un error, verifique los datos ingresados';
+        break;
+    }
+  };
+
+  const errorM = JSON.parse(JSON.stringify(errorMessage));
+  const error = handleError(errorM.code);
 
   return (
     <section className="grid place-items-center min-w-full min-h-screen dark text-foreground bg-gradient-to-b from-black to-gray-950">
@@ -82,7 +98,9 @@ export const Login = () => {
             onChange={onInputChange}
           />
           {emailValid && formSubmitted && (
-            <Chip color="warning">{'Error: ' + emailValid}</Chip>
+            <Chip color="primary" startContent={<IconAlertCircle height={'20px'} />}>
+              {emailValid}
+            </Chip>
           )}
           <Input
             label="Contraseña"
@@ -106,7 +124,9 @@ export const Login = () => {
             }
           />
           {passwordValid && formSubmitted && (
-            <Chip color="warning">{'Error: ' + passwordValid}</Chip>
+            <Chip color="primary" startContent={<IconAlertCircle height={'20px'} />}>
+              {passwordValid}
+            </Chip>
           )}
           <Button
             aria-label="Iniciar sesión"
@@ -116,11 +136,13 @@ export const Login = () => {
             Iniciar sesión
           </Button>
           {errorMessage && formSubmitted ? (
-            <Chip color="warning">{`${error.name}: ${error.code}`}</Chip>
+            <Chip color="primary" startContent={<IconAlertCircle height={'20px'} />}>
+              {error}
+            </Chip>
           ) : null}
 
           <Link to="/auth/register" className="self-center hover:text-cyan-400">
-            ¿No tienes una cuenta? Regístrate
+            ¿No tienes una cuenta? <span className="underline ">Regístrate</span>
           </Link>
 
           <Divider />

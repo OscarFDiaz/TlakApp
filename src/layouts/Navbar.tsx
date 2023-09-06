@@ -36,11 +36,6 @@ export const Navbar = () => {
             Palabra del día
           </Link>
         </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Aprendidas
-          </Link>
-        </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end" className="cursor-pointer">
         <Dropdown showArrow>

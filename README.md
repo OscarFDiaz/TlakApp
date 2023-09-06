@@ -1,27 +1,17 @@
-# React + TypeScript + Vite
+# 👨‍🎓🌐📚 Tlak!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📰 Tlak! es una aplicación para la memorización de palabras en el idioma inglés, creada usando <b>Vite + React, nextUI, tabler-icons, Firebase, Zustand, TailwindCSS, RouterDOM, TypeScript</b>.
 
-Currently, two official plugins are available:
+![Imagen web](https://i.imgur.com/dPMVa8b.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## DEMO
 
-## Expanding the ESLint configuration
+🔗 Link
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+https://oscarfdiaz.github.io/TlakApp/
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Authors
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [@OscarFDiaz](https://github.com/OscarFDiaz)

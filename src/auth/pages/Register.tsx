@@ -1,11 +1,20 @@
-import { Button, Card, CardBody, CardHeader, Chip, Input } from '@nextui-org/react';
-import { EyeSlashFilledIcon, EyeFilledIcon } from '../../assets/icons/';
+import {
+  Button,
+  Card,
+  CardBody,
+  CardHeader,
+  Chip,
+  Divider,
+  Input,
+} from '@nextui-org/react';
+import { EyeSlashFilledIcon, EyeFilledIcon, GoogleIcon } from '../../assets/icons/';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuthStore } from '../../zustand/useAuthStore';
 import { AUTH_STATUS } from '../../helpers/authStatus';
 import { Loader } from '../../components/Loader';
 import { FormValidations, useForm } from '../../hooks/useForm';
+import { IconAlertCircle } from '@tabler/icons-react';
 
 const formData = {
   name: '',
@@ -14,12 +23,12 @@ const formData = {
 };
 
 const formValidations: FormValidations = {
-  email: [(value: string) => value.includes('@'), 'El correo debe de tener una @'],
+  email: [(value: string) => /\S+@\S+\.\S+/.test(value), 'Formato de correo invalido.'],
   password: [
     (value: string) => value.length >= 6,
-    'El password debe de tener más de 6 letras',
+    'Ingresa una contraseña con mayor longitud. (6)',
   ],
-  name: [(value) => value.length >= 1, 'El nombre es obligatorio'],
+  name: [(value) => value.length >= 1, 'Este campo es obligatorio.'],
 };
 
 export const Register = () => {
@@ -35,7 +44,7 @@ export const Register = () => {
   const { email, password, name } = formState;
   const { emailValid, passwordValid, nameValid } = formValidation;
 
-  const { register, status, errorMessage } = useAuthStore();
+  const { register, status, errorMessage, singInGoogle } = useAuthStore();
 
   const handleRegister = () => {
     setFormSubmitted(true);
@@ -44,7 +53,29 @@ export const Register = () => {
     }
   };
 
-  const error = JSON.parse(JSON.stringify(errorMessage));
+  const handleGoogle = () => {
+    singInGoogle();
+  };
+
+  const handleError = (errorMessage: string) => {
+    switch (errorMessage) {
+      case 'auth/email-already-in-use':
+        return 'Ya existe un usuario con ese correo.';
+        break;
+      case 'auth/wrong-password':
+        return 'Verifique el usuario o la contraseña.';
+        break;
+      case 'auth/email-already-exists':
+        return 'Ya existe un usuario con ese correo.';
+        break;
+      default:
+        return 'Ha ocurrido un error, verifique los datos ingresados.';
+        break;
+    }
+  };
+
+  const errorM = JSON.parse(JSON.stringify(errorMessage));
+  const error = handleError(errorM.code);
 
   return (
     <section className="grid place-items-center min-w-full min-h-screen dark text-foreground bg-gradient-to-b from-black to-gray-950">
@@ -73,7 +104,9 @@ export const Register = () => {
             onChange={onInputChange}
           />
           {nameValid && formSubmitted && (
-            <Chip color="warning">{'Error: ' + nameValid}</Chip>
+            <Chip color="primary" startContent={<IconAlertCircle height={'20px'} />}>
+              {nameValid}
+            </Chip>
           )}
           <Input
             type="email"
@@ -84,7 +117,9 @@ export const Register = () => {
             onChange={onInputChange}
           />
           {emailValid && formSubmitted && (
-            <Chip color="warning">{'Error: ' + emailValid}</Chip>
+            <Chip color="primary" startContent={<IconAlertCircle height={'20px'} />}>
+              {emailValid}
+            </Chip>
           )}
           <Input
             label="Contraseña"
@@ -108,7 +143,9 @@ export const Register = () => {
             }
           />
           {passwordValid && formSubmitted && (
-            <Chip color="warning">{'Error: ' + passwordValid}</Chip>
+            <Chip color="primary" startContent={<IconAlertCircle height={'20px'} />}>
+              {passwordValid}
+            </Chip>
           )}
           <Button
             aria-label="Registrarme"
@@ -119,12 +156,27 @@ export const Register = () => {
           </Button>
 
           {errorMessage && formSubmitted ? (
-            <Chip color="warning">{`${error.name}: ${error.code}`}</Chip>
+            <Chip color="primary" startContent={<IconAlertCircle height={'20px'} />}>
+              {error}
+            </Chip>
           ) : null}
 
           <Link to="/auth/login" className="self-center hover:text-cyan-400">
-            ¿Ya tienes una cuenta? Iniciar sesión
+            ¿Ya tienes una cuenta? <span className="underline ">Inicia sesión</span>
           </Link>
+
+          <Divider />
+
+          <div className="flex gap-4 items-center justify-center">
+            <Button
+              aria-label="Ingresar con Google"
+              endContent={<GoogleIcon />}
+              className="hover:bg-gray-700"
+              onClick={handleGoogle}
+            >
+              Regístrate con Google
+            </Button>
+          </div>
         </CardBody>
       </Card>
     </section>
