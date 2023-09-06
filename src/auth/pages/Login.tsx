@@ -25,7 +25,7 @@ const formValidations: FormValidations = {
   email: [(value: string) => /\S+@\S+\.\S+/.test(value), 'Formato de correo invalido.'],
   password: [
     (value: string) => value.length >= 6,
-    'Ingresa una contraseña con mayor longitud. (6)',
+    'Verifique el usuario o la contraseña.',
   ],
 };
 

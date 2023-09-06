@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://github.com/OscarFDiaz/TlakApp/",
+  "homepage": "https://oscarfdiaz.github.io/TlakApp/",
   "scripts": {
     "build": "tsc && vite build",
     "deploy": "gh-pages -d dist",
