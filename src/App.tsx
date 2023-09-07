@@ -3,7 +3,7 @@ import { AppRouter } from './router/AppRouter';
 
 function App() {
   return (
-    <BrowserRouter basename="/TlakApp/">
+    <BrowserRouter basename="/TlakApp">
       <AppRouter />
     </BrowserRouter>
   );
